@@ -1,0 +1,572 @@
+{
+  "id": "20261008-235130",
+  "created": "2026-10-08T23:51:30",
+  "demo": true,
+  "label": "08 Oct 23:51 - Rajasthan (DEMO)",
+  "params": {
+    "states": "Rajasthan",
+    "cities": "Udaipur, Jaipur, Jodhpur, Kota, Ajmer, Pilani",
+    "types": [
+      "IIMs, IITs, NITs and other central institutes",
+      "Central and state universities",
+      "Private universities",
+      "B-schools / management institutes",
+      "Engineering and medical colleges"
+    ],
+    "min_hostel": 500,
+    "max_colleges": 5,
+    "residential_only": true,
+    "signals_of_interest": []
+  },
+  "institutions": [
+    {
+      "name": "DEMO Aravalli Institute of Technology",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "type": "Engineering college",
+      "website": "https://example.com/demo/aravalli",
+      "research": {
+        "institution": "DEMO Aravalli Institute of Technology",
+        "hostel_students": 3200,
+        "hostel_students_basis": "Demo data",
+        "campus_summary": "DEMO: Engineering college in Jaipur with about 3200 hostel students.",
+        "signals": [
+          {
+            "tier": "direct",
+            "description": "Tender notice for a biometric and digital gate-pass system for hostels.",
+            "date": "2026-08-29",
+            "source_url": "https://example.com/demo/aravalli/source-1",
+            "source_title": "Demo source 1",
+            "source_type": "official"
+          },
+          {
+            "tier": "strong_need",
+            "description": "Smart-campus programme announced with ERP upgrade.",
+            "date": "2026-06-10",
+            "source_url": "https://example.com/demo/aravalli/source-2",
+            "source_title": "Demo source 2",
+            "source_type": "news"
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel rules still require signing the gate register.",
+            "date": "2026-03-22",
+            "source_url": "https://example.com/demo/aravalli/source-3",
+            "source_title": "Demo source 3",
+            "source_type": "official"
+          }
+        ],
+        "buying_intent": 2,
+        "buying_intent_reason": "Demo reasoning.",
+        "problem_fit": 2,
+        "problem_fit_reason": "Demo reasoning.",
+        "digital_readiness": 2,
+        "digital_readiness_reason": "Demo reasoning.",
+        "evidence_confidence": "High",
+        "why_shortlisted": "DEMO: sample text showing where the explanation for a salesperson will appear.",
+        "potential_fit": "Digital outpass with QR gate logging and photo verification.",
+        "outreach_angle": "DEMO: open with how the gate register slows students and wardens down.",
+        "gaps": "DEMO: nothing real was researched."
+      },
+      "verified_urls": [
+        "example.com/demo/aravalli/source-1",
+        "example.com/demo/aravalli/source-2",
+        "example.com/demo/aravalli/source-3"
+      ],
+      "score": {
+        "raw": 100.0,
+        "multiplier": 1.0,
+        "confidence": "High",
+        "adjusted": 100.0,
+        "priority": "High",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 25.0,
+            "max": 25,
+            "note": "Demo reasoning."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 20.0,
+            "max": 20,
+            "note": "Demo reasoning."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 15.0,
+            "max": 15,
+            "note": "Direct signal found."
+          },
+          {
+            "dimension": "Recency",
+            "points": 15.0,
+            "max": 15,
+            "note": "Newest sourced signal is from Aug 2026 (within 6 months)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 15.0,
+            "max": 15,
+            "note": "About 3,200 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 10.0,
+            "max": 10,
+            "note": "Demo reasoning."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "direct",
+            "description": "Tender notice for a biometric and digital gate-pass system for hostels.",
+            "date": "2026-08-29",
+            "source_url": "https://example.com/demo/aravalli/source-1",
+            "source_title": "Demo source 1",
+            "source_type": "official",
+            "verified": true
+          },
+          {
+            "tier": "strong_need",
+            "description": "Smart-campus programme announced with ERP upgrade.",
+            "date": "2026-06-10",
+            "source_url": "https://example.com/demo/aravalli/source-2",
+            "source_title": "Demo source 2",
+            "source_type": "news",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel rules still require signing the gate register.",
+            "date": "2026-03-22",
+            "source_url": "https://example.com/demo/aravalli/source-3",
+            "source_title": "Demo source 3",
+            "source_type": "official",
+            "verified": true
+          }
+        ],
+        "best_tier": "direct",
+        "flags": []
+      }
+    },
+    {
+      "name": "DEMO Mewar School of Management",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "type": "B-school",
+      "website": "https://example.com/demo/mewar",
+      "research": {
+        "institution": "DEMO Mewar School of Management",
+        "hostel_students": 900,
+        "hostel_students_basis": "Demo data",
+        "campus_summary": "DEMO: B-school in Udaipur with about 900 hostel students.",
+        "signals": [
+          {
+            "tier": "strong_need",
+            "description": "Hostel management software procurement mentioned in annual report.",
+            "date": "2026-05-11",
+            "source_url": "https://example.com/demo/mewar/source-1",
+            "source_title": "Demo source 1",
+            "source_type": "official"
+          },
+          {
+            "tier": "indirect",
+            "description": "Campus expansion adds two new hostel blocks.",
+            "date": "2026-07-10",
+            "source_url": "https://example.com/demo/mewar/source-2",
+            "source_title": "Demo source 2",
+            "source_type": "news"
+          }
+        ],
+        "buying_intent": 1,
+        "buying_intent_reason": "Demo reasoning.",
+        "problem_fit": 2,
+        "problem_fit_reason": "Demo reasoning.",
+        "digital_readiness": 1,
+        "digital_readiness_reason": "Demo reasoning.",
+        "evidence_confidence": "Medium",
+        "why_shortlisted": "DEMO: sample text showing where the explanation for a salesperson will appear.",
+        "potential_fit": "Digital outpass with QR gate logging and photo verification.",
+        "outreach_angle": "DEMO: open with how the gate register slows students and wardens down.",
+        "gaps": "DEMO: nothing real was researched."
+      },
+      "verified_urls": [
+        "example.com/demo/mewar/source-1",
+        "example.com/demo/mewar/source-2"
+      ],
+      "score": {
+        "raw": 67.5,
+        "multiplier": 0.85,
+        "confidence": "Medium",
+        "adjusted": 57.4,
+        "priority": "Medium",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 12.5,
+            "max": 25,
+            "note": "Demo reasoning."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 20.0,
+            "max": 20,
+            "note": "Demo reasoning."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 7.5,
+            "max": 15,
+            "note": "Strong-need signal found, no direct signal."
+          },
+          {
+            "dimension": "Recency",
+            "points": 15.0,
+            "max": 15,
+            "note": "Newest sourced signal is from Jul 2026 (within 6 months)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 7.5,
+            "max": 15,
+            "note": "About 900 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 5.0,
+            "max": 10,
+            "note": "Demo reasoning."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "strong_need",
+            "description": "Hostel management software procurement mentioned in annual report.",
+            "date": "2026-05-11",
+            "source_url": "https://example.com/demo/mewar/source-1",
+            "source_title": "Demo source 1",
+            "source_type": "official",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Campus expansion adds two new hostel blocks.",
+            "date": "2026-07-10",
+            "source_url": "https://example.com/demo/mewar/source-2",
+            "source_title": "Demo source 2",
+            "source_type": "news",
+            "verified": true
+          }
+        ],
+        "best_tier": "strong_need",
+        "flags": []
+      }
+    },
+    {
+      "name": "DEMO Thar Central University",
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "type": "Central university",
+      "website": "https://example.com/demo/thar",
+      "research": {
+        "institution": "DEMO Thar Central University",
+        "hostel_students": 2600,
+        "hostel_students_basis": "Demo data",
+        "campus_summary": "DEMO: Central university in Jodhpur with about 2600 hostel students.",
+        "signals": [
+          {
+            "tier": "strong_need",
+            "description": "Biometric attendance rollout for students.",
+            "date": "2024-11-07",
+            "source_url": "https://example.com/demo/thar/source-1",
+            "source_title": "Demo source 1",
+            "source_type": "news"
+          },
+          {
+            "tier": "indirect",
+            "description": "Large resident population across eight hostels.",
+            "date": "2024-11-07",
+            "source_url": "https://example.com/demo/thar/source-2",
+            "source_title": "Demo source 2",
+            "source_type": "official"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "Demo reasoning.",
+        "problem_fit": 1,
+        "problem_fit_reason": "Demo reasoning.",
+        "digital_readiness": 1,
+        "digital_readiness_reason": "Demo reasoning.",
+        "evidence_confidence": "Medium",
+        "why_shortlisted": "DEMO: sample text showing where the explanation for a salesperson will appear.",
+        "potential_fit": "Digital outpass with QR gate logging and photo verification.",
+        "outreach_angle": "DEMO: open with how the gate register slows students and wardens down.",
+        "gaps": "DEMO: nothing real was researched."
+      },
+      "verified_urls": [
+        "example.com/demo/thar/source-1",
+        "example.com/demo/thar/source-2"
+      ],
+      "score": {
+        "raw": 37.5,
+        "multiplier": 0.85,
+        "confidence": "Medium",
+        "adjusted": 31.9,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "Demo reasoning."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 10.0,
+            "max": 20,
+            "note": "Demo reasoning."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 7.5,
+            "max": 15,
+            "note": "Strong-need signal found, no direct signal."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "Newest sourced signal is from Nov 2024 (older than 18 months)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 15.0,
+            "max": 15,
+            "note": "About 2,600 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 5.0,
+            "max": 10,
+            "note": "Demo reasoning."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "strong_need",
+            "description": "Biometric attendance rollout for students.",
+            "date": "2024-11-07",
+            "source_url": "https://example.com/demo/thar/source-1",
+            "source_title": "Demo source 1",
+            "source_type": "news",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Large resident population across eight hostels.",
+            "date": "2024-11-07",
+            "source_url": "https://example.com/demo/thar/source-2",
+            "source_title": "Demo source 2",
+            "source_type": "official",
+            "verified": true
+          }
+        ],
+        "best_tier": "strong_need",
+        "flags": []
+      }
+    },
+    {
+      "name": "DEMO Hadoti Private University",
+      "city": "Kota",
+      "state": "Rajasthan",
+      "type": "Private university",
+      "website": "https://example.com/demo/hadoti",
+      "research": {
+        "institution": "DEMO Hadoti Private University",
+        "hostel_students": 1500,
+        "hostel_students_basis": "Demo data",
+        "campus_summary": "DEMO: Private university in Kota with about 1500 hostel students.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Hostel brochure mentions 'register at gate'.",
+            "date": "2025-09-03",
+            "source_url": "https://example.com/demo/hadoti/source-1",
+            "source_title": "Demo source 1",
+            "source_type": "other"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "Demo reasoning.",
+        "problem_fit": 2,
+        "problem_fit_reason": "Demo reasoning.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "Demo reasoning.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "DEMO: sample text showing where the explanation for a salesperson will appear.",
+        "potential_fit": "Digital outpass with QR gate logging and photo verification.",
+        "outreach_angle": "DEMO: open with how the gate register slows students and wardens down.",
+        "gaps": "DEMO: nothing real was researched."
+      },
+      "verified_urls": [
+        "example.com/demo/hadoti/source-1"
+      ],
+      "score": {
+        "raw": 35.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 21.0,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "Demo reasoning."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 20.0,
+            "max": 20,
+            "note": "Demo reasoning."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 7.5,
+            "max": 15,
+            "note": "Newest sourced signal is from Sep 2025 (6-18 months old)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 7.5,
+            "max": 15,
+            "note": "About 1,500 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "Demo reasoning."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Hostel brochure mentions 'register at gate'.",
+            "date": "2025-09-03",
+            "source_url": "https://example.com/demo/hadoti/source-1",
+            "source_title": "Demo source 1",
+            "source_type": "other",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": []
+      }
+    },
+    {
+      "name": "DEMO Ajmer College of Arts",
+      "city": "Ajmer",
+      "state": "Rajasthan",
+      "type": "State college",
+      "website": "https://example.com/demo/ajmer",
+      "research": {
+        "institution": "DEMO Ajmer College of Arts",
+        "hostel_students": 250,
+        "hostel_students_basis": "Demo data",
+        "campus_summary": "DEMO: State college in Ajmer with about 250 hostel students.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "A claim with no real source (shows how unverified leads appear).",
+            "date": "2026-09-08",
+            "source_url": "https://example.com/never-searched",
+            "source_title": "",
+            "source_type": "other"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "Demo reasoning.",
+        "problem_fit": 0,
+        "problem_fit_reason": "Demo reasoning.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "Demo reasoning.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "DEMO: sample text showing where the explanation for a salesperson will appear.",
+        "potential_fit": "Digital outpass with QR gate logging and photo verification.",
+        "outreach_angle": "DEMO: open with how the gate register slows students and wardens down.",
+        "gaps": "DEMO: nothing real was researched."
+      },
+      "verified_urls": [],
+      "score": {
+        "raw": 0.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 0.0,
+        "priority": "Thin evidence",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "Demo reasoning."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 0.0,
+            "max": 20,
+            "note": "Demo reasoning."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "No sourced signals."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 0.0,
+            "max": 15,
+            "note": "About 250 hostel students (under 500)."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "Demo reasoning."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "A claim with no real source (shows how unverified leads appear).",
+            "date": "2026-09-08",
+            "source_url": "https://example.com/never-searched",
+            "source_title": "",
+            "source_type": "other",
+            "verified": false
+          }
+        ],
+        "best_tier": null,
+        "flags": [
+          "Below the 500 hostel-student minimum.",
+          "1 claimed signal(s) had no verifiable source and were not counted."
+        ]
+      }
+    }
+  ],
+  "status": "done"
+}

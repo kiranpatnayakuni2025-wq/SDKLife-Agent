@@ -1,0 +1,703 @@
+{
+  "id": "20261013-154205",
+  "created": "2026-10-13T15:42:05",
+  "demo": false,
+  "label": "13 Oct 15:42 - Rajasthan",
+  "params": {
+    "states": "Rajasthan",
+    "cities": "Udaipur, Jaipur, Jodhpur, Kota, Ajmer, Pilani",
+    "types": [
+      "IIMs, IITs, NITs and other central institutes",
+      "Central and state universities",
+      "Private universities",
+      "B-schools / management institutes",
+      "Engineering and medical colleges"
+    ],
+    "min_hostel": 500,
+    "max_colleges": 5,
+    "residential_only": true,
+    "signals_of_interest": [
+      "Tenders / RFQs for hostel or outpass management",
+      "Biometric or facial-recognition access procurement",
+      "Hostel digitization / hostel management software",
+      "Smart-campus programmes",
+      "Campus security modernization",
+      "Student ERP modernization",
+      "Manual / register-based student movement",
+      "Campus expansion"
+    ]
+  },
+  "institutions": [
+    {
+      "name": "Indian Institute of Management Udaipur",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "type": "IIM",
+      "website": "",
+      "research": {
+        "institution": "Indian Institute of Management Udaipur",
+        "hostel_students": null,
+        "hostel_students_basis": "",
+        "campus_summary": "IIM Udaipur is a fully residential, 300‑acre campus with multiple hostels and recent infrastructure upgrades.",
+        "signals": [
+          {
+            "tier": "direct",
+            "description": "GeM tender for supply, installation, integration, testing, commissioning and support of an integrated visitor management, user movement management and vehicle access management system for main gate operations.",
+            "date": "2026-10-05",
+            "source_index": 22,
+            "source_type": "portal",
+            "source_url": "https://tenderdekho.com/tender-detail/td-3chJkMXh5M",
+            "source_title": "GEM/2026/B/8118648 - Procurement Opportunity: Custom Bid for ..."
+          },
+          {
+            "tier": "direct",
+            "description": "Official invitation on IIM Udaipur website to submit online bids via GeM for the same integrated visitor and movement management system.",
+            "date": "2026-10-05",
+            "source_index": 23,
+            "source_type": "official",
+            "source_url": "https://www.iimu.ac.in/wp-content/uploads/2026/10/TenderD8.pdf",
+            "source_title": "INDIAN INSTITUTE OF MANAGEMENT UDAIPUR (An Autonomous ..."
+          }
+        ],
+        "buying_intent": 2,
+        "buying_intent_reason": "Active GeM tender and official bid invitation for a visitor/user movement management system.",
+        "problem_fit": 1,
+        "problem_fit_reason": "The institute is seeking a digital gate‑pass solution, implying current processes are insufficient or manual.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "No evidence of existing campus ERP or digital outpass system found.",
+        "evidence_confidence": "High",
+        "why_shortlisted": "IIM Udaipur has issued a formal tender for a gate‑access and visitor‑management solution, indicating a clear procurement need that matches SDKLife's outpass module.",
+        "potential_fit": "The outpass module's QR‑code gate logging, photo verification (Face‑ID), and analytics align with the requested visitor and user movement management system.",
+        "outreach_angle": "Reference the recent GeM tender and propose a demo of SDKLife's outpass solution that meets the exact specifications of the integrated visitor management system.",
+        "gaps": "No publicly available data on the number of hostel residents or existing digital ERP platforms at IIM Udaipur."
+      },
+      "verified_urls": [
+        "agastitech.com/smart-campus-automation",
+        "appinventiv.com/blog/smart-campus-technology-for-higher-education",
+        "campus.technology",
+        "college4sure.com/college/indian-institute-of-management-udaipur-iimu-udaipur-64",
+        "collnod.com/colleges/indian-institute-of-managementudaipur-iimu/iim-udaipur-campus-and-infrastructure",
+        "dahuasecurity.com/in/solutions/enterprise-solutions/education/campus",
+        "erp.icampus.in",
+        "getmyuni.com/college/indian-institute-of-management-iim-udaipur-facilities?page=facilities",
+        "ifwerp.com",
+        "iimtu.edu.in/page/student-services",
+        "iimu.ac.in/campus",
+        "iimu.ac.in/tenders",
+        "iimu.ac.in/wp-content/uploads/2026/10/TenderD8.pdf",
+        "impreserp.co.in",
+        "indiantenders.in",
+        "kollegeapply.com/college/iim-udaipur-indian-institute-of-management-udaipur-hostel",
+        "schoolautomationsystem.com/biometric-smart-attendance-management.html",
+        "tenderdekho.com/tender-detail/td-1rE1qRhcgo",
+        "tenderdekho.com/tender-detail/td-3chJkMXh5M",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tendersontime.com",
+        "tenderspedia.com",
+        "tendersworld.com",
+        "vmedulife.com/blog/hostel-management/student-hostel-management-system-streamlining-campus-accommodation-with-vmedulife"
+      ],
+      "score": {
+        "raw": 65.0,
+        "multiplier": 1.0,
+        "confidence": "High",
+        "adjusted": 65.0,
+        "priority": "Medium",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 25.0,
+            "max": 25,
+            "note": "Active GeM tender and official bid invitation for a visitor/user movement management system."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 10.0,
+            "max": 20,
+            "note": "The institute is seeking a digital gate‑pass solution, implying current processes are insufficient or manual."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 15.0,
+            "max": 15,
+            "note": "Direct signal found."
+          },
+          {
+            "dimension": "Recency",
+            "points": 15.0,
+            "max": 15,
+            "note": "Newest sourced signal is from Oct 2026 (within 6 months)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 0.0,
+            "max": 15,
+            "note": "Hostel population not found."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "No evidence of existing campus ERP or digital outpass system found."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "direct",
+            "description": "GeM tender for supply, installation, integration, testing, commissioning and support of an integrated visitor management, user movement management and vehicle access management system for main gate operations.",
+            "date": "2026-10-05",
+            "source_index": 22,
+            "source_type": "portal",
+            "source_url": "https://tenderdekho.com/tender-detail/td-3chJkMXh5M",
+            "source_title": "GEM/2026/B/8118648 - Procurement Opportunity: Custom Bid for ...",
+            "verified": true
+          },
+          {
+            "tier": "direct",
+            "description": "Official invitation on IIM Udaipur website to submit online bids via GeM for the same integrated visitor and movement management system.",
+            "date": "2026-10-05",
+            "source_index": 23,
+            "source_type": "official",
+            "source_url": "https://www.iimu.ac.in/wp-content/uploads/2026/10/TenderD8.pdf",
+            "source_title": "INDIAN INSTITUTE OF MANAGEMENT UDAIPUR (An Autonomous ...",
+            "verified": true
+          }
+        ],
+        "best_tier": "direct",
+        "flags": [
+          "Hostel size unknown - check by hand."
+        ]
+      }
+    },
+    {
+      "name": "Indian Institute of Technology Jodhpur",
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "type": "IIT",
+      "website": "",
+      "research": {
+        "institution": "Indian Institute of Technology Jodhpur",
+        "hostel_students": null,
+        "hostel_students_basis": "",
+        "campus_summary": "IIT Jodhpur hosts 17 residential hostels (12 for boys, 5 for girls) serving a sizable on‑campus student population.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The institute has 17 hostels with a large resident student population.",
+            "date": "unknown",
+            "source_index": 12,
+            "source_type": "official",
+            "source_url": "https://iitj.ac.in/office-of-students/en/hostels",
+            "source_title": "Hostels | Office of Students | IIT Jodhpur"
+          },
+          {
+            "tier": "indirect",
+            "description": "Presence of an Office of Security & Transports suggests focus on campus safety and potential interest in modern access solutions.",
+            "date": "unknown",
+            "source_index": 6,
+            "source_type": "official",
+            "source_url": "https://iitj.ac.in/office-of-security-transports/en/office-of-security-transports",
+            "source_title": "Office of Security & Transports | IIT Jodhpur"
+          },
+          {
+            "tier": "indirect",
+            "description": "IIT Jodhpur maintains a public tender portal, but no specific tender for outpass or biometric access was found in the listed results.",
+            "date": "unknown",
+            "source_index": 16,
+            "source_type": "official",
+            "source_url": "https://iitj.ac.in/tenders/",
+            "source_title": "Tenders - IIT J"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice for a digital outpass or biometric access system was identified.",
+        "problem_fit": 1,
+        "problem_fit_reason": "The campus has a large hostel population, but no evidence of the current student movement process (paper register vs digital) was found.",
+        "digital_readiness": 1,
+        "digital_readiness_reason": "The institute has an Office of Security & Transports and a public tender portal, indicating some digital infrastructure, but no clear ERP or outpass app is mentioned.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "IIT Jodhpur manages a sizable residential community and has an active security office, making it a plausible candidate for modernizing gate‑pass processes.",
+        "potential_fit": "Our QR‑code based Outpass module could replace manual gate registers and integrate with the security office’s existing monitoring tools.",
+        "outreach_angle": "Reference the institute’s security office and ask about current challenges with manual outpass handling and interest in a QR‑code solution.",
+        "gaps": "No specific data on existing outpass procedures, no concrete tender or procurement documents, and no details on current digital ERP or visitor‑management systems."
+      },
+      "verified_urls": [
+        "careers360.com/university/indian-institute-of-technology-jodhpur/facilities",
+        "en.wikipedia.org/wiki/IIT_Jodhpur",
+        "findmycollege.com/colleges/indian-institute-of-technology-jodhpur-iit-jodhpur-64/hostel",
+        "ieeexplore.ieee.org/document/10415118",
+        "iitj.ac.in/bachelor-of-technology/en/hostels-facilities",
+        "iitj.ac.in/office-of-security-transports/en/office-of-security-transports",
+        "iitj.ac.in/office-of-students/en/hostels",
+        "iitj.ac.in/tenders",
+        "indiantenders.in",
+        "researchgate.net/publication/336138986_Toward_a_Smart_Campus_Using_IoT_Framework_for_Safety_and_Security_System_on_a_University_Campus",
+        "scribd.com/document/669408330/Smart-Campus-Security-System-Using-IoT-and-AI",
+        "tenderdekho.com/tender-detail/td-0lItVYPcND",
+        "tenderdekho.com/tender-detail/td-1VRQNhYpaQ",
+        "tenderdekho.com/tender-detail/td-3O6W8OUVpZ",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tenderdetail.com/Indian-tender/rfq-tenders",
+        "tenderkart.in/authority/indian-institute-of-technology-jodhpur/active",
+        "tendersontime.com",
+        "tenderspedia.com",
+        "terrier.co.in/smart-campus"
+      ],
+      "score": {
+        "raw": 15.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 9.0,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice for a digital outpass or biometric access system was identified."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 10.0,
+            "max": 20,
+            "note": "The campus has a large hostel population, but no evidence of the current student movement process (paper register vs digital) was found."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 0.0,
+            "max": 15,
+            "note": "Hostel population not found."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 5.0,
+            "max": 10,
+            "note": "The institute has an Office of Security & Transports and a public tender portal, indicating some digital infrastructure, but no clear ERP or outpass app is mentioned."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The institute has 17 hostels with a large resident student population.",
+            "date": "unknown",
+            "source_index": 12,
+            "source_type": "official",
+            "source_url": "https://iitj.ac.in/office-of-students/en/hostels",
+            "source_title": "Hostels | Office of Students | IIT Jodhpur",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Presence of an Office of Security & Transports suggests focus on campus safety and potential interest in modern access solutions.",
+            "date": "unknown",
+            "source_index": 6,
+            "source_type": "official",
+            "source_url": "https://iitj.ac.in/office-of-security-transports/en/office-of-security-transports",
+            "source_title": "Office of Security & Transports | IIT Jodhpur",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "IIT Jodhpur maintains a public tender portal, but no specific tender for outpass or biometric access was found in the listed results.",
+            "date": "unknown",
+            "source_index": 16,
+            "source_type": "official",
+            "source_url": "https://iitj.ac.in/tenders/",
+            "source_title": "Tenders - IIT J",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": [
+          "Hostel size unknown - check by hand."
+        ]
+      }
+    },
+    {
+      "name": "Birla Institute of Technology and Science Pilani",
+      "city": "Pilani",
+      "state": "Rajasthan",
+      "type": "Deemed University (BITS)",
+      "website": "",
+      "research": {
+        "institution": "Birla Institute of Technology and Science Pilani",
+        "hostel_students": null,
+        "hostel_students_basis": "",
+        "campus_summary": "BITS Pilani runs multiple hostels for its large residential student body and operates an Oracle PeopleSoft ERP system for academic and administrative processes.",
+        "signals": [
+          {
+            "tier": "strong_need",
+            "description": "BITS Pilani uses an Oracle PeopleSoft ERP (SIS) platform for campus administration, indicating ongoing digital infrastructure investment.",
+            "date": "unknown",
+            "source_index": 1,
+            "source_type": "official",
+            "source_url": "https://sis.erp.bits-pilani.ac.in/psp/sisprd/?cmd=login&languageCd=ENG",
+            "source_title": "BITS ERP SIS | PeopleSoft Enterprise Sign-in - BITS Pilani"
+          },
+          {
+            "tier": "indirect",
+            "description": "PDF Tender 002 posted by BITS Pilani shows the institute is issuing procurement notices, though the specific goods/services are not identified.",
+            "date": "unknown",
+            "source_index": 11,
+            "source_type": "official",
+            "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Tender-002.pdf",
+            "source_title": "PDF Tender 002 - Birla Institute of Technology and Science, Pilani (BITS ..."
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel rules (PDF on Scribd) describe manual leave‑application and register‑based movement control for hostel residents.",
+            "date": "unknown",
+            "source_index": 6,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/902325398/Hostel-Rules",
+            "source_title": "Hostel Rules | PDF"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No explicit tender, RFQ, or procurement notice for a digital outpass or campus access system was found.",
+        "problem_fit": 1,
+        "problem_fit_reason": "The institute runs several hostels and the available hostel rules suggest a paper‑based leave register, but the exact process is not documented.",
+        "digital_readiness": 2,
+        "digital_readiness_reason": "An Oracle PeopleSoft ERP system is actively used for campus management, showing strong digital capability.",
+        "evidence_confidence": "Medium",
+        "why_shortlisted": "BITS Pilani has a sizable residential community and already uses a campus‑wide ERP, indicating readiness to adopt a complementary digital outpass solution.",
+        "potential_fit": "The rotating QR‑code gate‑pass and mobile leave‑request workflow can integrate with the existing ERP for seamless approval and audit trails.",
+        "outreach_angle": "Reference BITS' current ERP implementation and propose how an outpass module can plug into that system to automate hostel leave management and enhance security.",
+        "gaps": "No concrete tender or procurement document specific to outpass, biometric, or facial‑recognition systems; no publicly available data on exact hostel population numbers."
+      },
+      "verified_urls": [
+        "bits-pilani.ac.in/Goa/login",
+        "bits-pilani.ac.in/wp-content/uploads/Tender-002.pdf",
+        "colleges.freejobalert.com/colleges/birla-institute-of-technology-and-science-pilani/courses",
+        "colleges.freejobalert.com/colleges/birla-institute-of-technology-and-science-pilani/rankings",
+        "ece.erpbynet.com",
+        "erp.bits-pilani.ac.in",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "rajteachers.net/leaves",
+        "scribd.com/document/1025566089/Hostel-Rules-1",
+        "scribd.com/document/900526449/Hostel-Rule",
+        "scribd.com/document/902325398/Hostel-Rules",
+        "sis.erp.bits-pilani.ac.in/psp/sisprd?cmd=login&languageCd=ENG",
+        "sisdev.erp.bits-pilani.ac.in/psp/sisdev?cmd=login"
+      ],
+      "score": {
+        "raw": 27.5,
+        "multiplier": 0.85,
+        "confidence": "Medium",
+        "adjusted": 23.4,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No explicit tender, RFQ, or procurement notice for a digital outpass or campus access system was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 10.0,
+            "max": 20,
+            "note": "The institute runs several hostels and the available hostel rules suggest a paper‑based leave register, but the exact process is not documented."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 7.5,
+            "max": 15,
+            "note": "Strong-need signal found, no direct signal."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 0.0,
+            "max": 15,
+            "note": "Hostel population not found."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 10.0,
+            "max": 10,
+            "note": "An Oracle PeopleSoft ERP system is actively used for campus management, showing strong digital capability."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "strong_need",
+            "description": "BITS Pilani uses an Oracle PeopleSoft ERP (SIS) platform for campus administration, indicating ongoing digital infrastructure investment.",
+            "date": "unknown",
+            "source_index": 1,
+            "source_type": "official",
+            "source_url": "https://sis.erp.bits-pilani.ac.in/psp/sisprd/?cmd=login&languageCd=ENG",
+            "source_title": "BITS ERP SIS | PeopleSoft Enterprise Sign-in - BITS Pilani",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "PDF Tender 002 posted by BITS Pilani shows the institute is issuing procurement notices, though the specific goods/services are not identified.",
+            "date": "unknown",
+            "source_index": 11,
+            "source_type": "official",
+            "source_url": "https://www.bits-pilani.ac.in/wp-content/uploads/Tender-002.pdf",
+            "source_title": "PDF Tender 002 - Birla Institute of Technology and Science, Pilani (BITS ...",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel rules (PDF on Scribd) describe manual leave‑application and register‑based movement control for hostel residents.",
+            "date": "unknown",
+            "source_index": 6,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/902325398/Hostel-Rules",
+            "source_title": "Hostel Rules | PDF",
+            "verified": true
+          }
+        ],
+        "best_tier": "strong_need",
+        "flags": [
+          "Hostel size unknown - check by hand."
+        ]
+      }
+    },
+    {
+      "name": "Central University of Rajasthan",
+      "city": "Ajmer",
+      "state": "Rajasthan",
+      "type": "Central University",
+      "website": "",
+      "research": {
+        "institution": "Central University of Rajasthan",
+        "hostel_students": 2850,
+        "hostel_students_basis": "Campus page lists four boys' and four girls' hostels with around 2,850 students capacity (source 18)",
+        "campus_summary": "The university hosts eight hostels (four for boys, four for girls) accommodating roughly 2,850 resident students.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Large resident population with multiple hostels (~2,850 capacity).",
+            "date": "unknown",
+            "source_index": 18,
+            "source_type": "official",
+            "source_url": "http://www.curaj.ac.in/campus",
+            "source_title": "Campus | Central University of Rajasthan"
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel rules mention a leave register and manual movement procedures.",
+            "date": "unknown",
+            "source_index": 21,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/902325398/Hostel-Rules",
+            "source_title": "Hostel Rules | PDF"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice for outpass or access control was found.",
+        "problem_fit": 1,
+        "problem_fit_reason": "The university has a sizable hostel population, but specific details on how student movement is recorded are not available; only generic manual leave rules are seen.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "No evidence of existing ERP, digital outpass, or biometric/face‑recognition systems on the university site.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "The university houses a large number of resident students and currently relies on manual hostel leave procedures, indicating a potential need for digitisation.",
+        "potential_fit": "SDKLife's rotating QR‑code outpass module can replace the paper leave register and provide real‑time entry/exit tracking for the 2,850 hostel residents.",
+        "outreach_angle": "Highlight how the outpass solution can streamline hostel security and eliminate the manual leave register currently used.",
+        "gaps": "No concrete procurement or tender information; no confirmation of existing digital campus systems or biometric access controls."
+      },
+      "verified_urls": [
+        "agastitech.com/smart-campus-automation",
+        "appinventiv.com/blog/smart-campus-technology-for-higher-education",
+        "bing.com/aclick?ld=e8rCK-qnacO3UjpPRcaAoAqjVUCUzxxdWQBd5gL9-YijCukE0juDxwb0KUvGBBuGOr6FClYCyZxgY390YTPBhvhmTDSSDQB3Ci5ObWe5haPO1rcK7_ZAlb2RjZq1GhWDkl3rNQfDGXiPwdbsZArr1S-odJYJd9u-e_GNsxGjNgM2CYMElI7Sp4L-3mdCcbuVHvQaF64F5xR8qlWpudhr5GO5DD1eE&u=aHR0cHMlM2ElMmYlMmZ3d3cuYWdvZGEuY29tJTJmcGFydG5lcnMlMmZwYXJ0bmVyc2VhcmNoLmFzcHglM2ZkZXZpY2UlM2RjJTI2bmV0d29yayUzZG8lMjZ1cmwlM2RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRmVuLWluJTI1MkZwYWdlcyUyNTJGYWdvZGElMjUyRmRlZmF1bHQlMjUyRkRlc3RpbmF0aW9uU2VhcmNoUmVzdWx0LmFzcHglMjUzRnNlbGVjdGVkcHJvcGVydHklMjUzRDM3MDE3ODQzJTI1MjZjaXR5JTI1M0QxNjA1NiUyNTI2aGlkJTI1M0QzNzAxNzg0MyUyNTI2c2l0ZV9pZCUyNTNEMTk1NTM3OSUyNTI2dGFnJTI1M0RmYmJjY2EzMy00OTQxLTQ3ZTItODkyMi1hYTgwZWFiMmFlOGMlMjZtc2Nsa2lkJTNkNDE4MzQ4YzJjMGU4MWU4MGViYTMyMjBjYzU2MTRhNzglMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RJTkQlMjU3Q0VOJTI1N0NFTiUyNTdDSU5UXzM4OCUyNnV0bV90ZXJtJTNkVGhlJTI1MjBEb3JtJTI1MjBIb3N0ZWwlMjZ1dG1fY29udGVudCUzZElORCUyNTdDRU4lMjU3Q0VOJTI1N0NJTlQlMjU3Q0dlbmVyYWwlMjU3Q05BX01QQiUyNTdDSE4lMjUzQVRoZSUyNTIwRG9ybSUyNTIwSG9zdGVsXzM3MDE3ODQzJTI1N0NOVU0wMDE&rlid=418348c2c0e81e80eba3220cc5614a78",
+        "curaj.ac.in/campus",
+        "curaj.ac.in/hostels",
+        "en.wikipedia.org/wiki/Central_University_of_Rajasthan",
+        "erp.uniraj.org",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "grokipedia.com/page/Central_University_of_Rajasthan",
+        "indiantenders.in",
+        "knrcererp.in",
+        "rajteachers.net/leaves",
+        "researchgate.net/publication/336138986_Toward_a_Smart_Campus_Using_IoT_Framework_for_Safety_and_Security_System_on_a_University_Campus",
+        "researchgate.net/publication/345360060_SMART_CAMPUS_USING_RFID",
+        "rieall.attendance.gov.in",
+        "scribd.com/document/454112833/HostelManagement",
+        "scribd.com/document/900526449/Hostel-Rule",
+        "scribd.com/document/902325398/Hostel-Rules",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tendersontime.com",
+        "tenderspedia.com",
+        "tendersworld.com",
+        "vmedulife.com/blog/erp-lms/erp-implementation-in-university-a-complete-2000-word-guide-tailored-to-vmedulife",
+        "vmedulife.com/blog/hostel-management/student-hostel-management-system-streamlining-campus-accommodation-with-vmedulife"
+      ],
+      "score": {
+        "raw": 25.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 15.0,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice for outpass or access control was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 10.0,
+            "max": 20,
+            "note": "The university has a sizable hostel population, but specific details on how student movement is recorded are not available; only generic manual leave rules are seen."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 15.0,
+            "max": 15,
+            "note": "About 2,850 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "No evidence of existing ERP, digital outpass, or biometric/face‑recognition systems on the university site."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Large resident population with multiple hostels (~2,850 capacity).",
+            "date": "unknown",
+            "source_index": 18,
+            "source_type": "official",
+            "source_url": "http://www.curaj.ac.in/campus",
+            "source_title": "Campus | Central University of Rajasthan",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel rules mention a leave register and manual movement procedures.",
+            "date": "unknown",
+            "source_index": 21,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/902325398/Hostel-Rules",
+            "source_title": "Hostel Rules | PDF",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": []
+      }
+    },
+    {
+      "name": "JNU Jaipur (Jaipur National University)",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "type": "Private University",
+      "website": "",
+      "research": {
+        "institution": "JNU Jaipur (Jaipur National University)",
+        "hostel_students": 2500,
+        "hostel_students_basis": "JNU website states residential experience to over 2500+ students (source_index 6) (from discovery)",
+        "campus_summary": "JNU Jaipur offers an online ERP/LMS portal for student services, but no public information was found about hostel size, manual outpass processes, or procurement activities.",
+        "signals": [],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice related to hostel/outpass or biometric access was found.",
+        "problem_fit": 0,
+        "problem_fit_reason": "There is no evidence of manual or paper‑based student movement systems; hostel details are unavailable.",
+        "digital_readiness": 1,
+        "digital_readiness_reason": "The university provides an ERP/LMS portal for academic and fee services, indicating some digital infrastructure.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "The presence of an ERP suggests a willingness to adopt digital tools, and the lack of visible outpass solutions may indicate an unmet need.",
+        "potential_fit": "The Outpass QR‑code and mobile approval workflow could replace any existing manual gate register and integrate with the university's ERP for seamless tracking.",
+        "outreach_angle": "Reference the existing ERP platform and propose a lightweight integration that adds secure, automated outpass management without disrupting current systems.",
+        "gaps": "No data on hostel population, manual outpass procedures, or any active procurement/tender activity."
+      },
+      "verified_urls": [
+        "bids.professionalutilities.com/tenders/10009193",
+        "erp.mgumst.org",
+        "erp.zoho.in/app",
+        "gem.gov.in/cppp/2",
+        "google.com",
+        "jnujaipur.ac.in/erp-lms-login",
+        "tenderdekho.com/tender-detail/td-21IOM5EnAc",
+        "tenderkart.in/tender/e9c8ca13-2af7-4f3a-a519-f1f8f4831657",
+        "tendersahayakai.com/gem-tenders/jaipur",
+        "vmedulife.com/blog/hostel-management/student-hostel-management-system-streamlining-campus-accommodation-with-vmedulife"
+      ],
+      "score": {
+        "raw": 20.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 12.0,
+        "priority": "Thin evidence",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice related to hostel/outpass or biometric access was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 0.0,
+            "max": 20,
+            "note": "There is no evidence of manual or paper‑based student movement systems; hostel details are unavailable."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "No sourced signals."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 15.0,
+            "max": 15,
+            "note": "About 2,500 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 5.0,
+            "max": 10,
+            "note": "The university provides an ERP/LMS portal for academic and fee services, indicating some digital infrastructure."
+          }
+        ],
+        "signals": [],
+        "best_tier": null,
+        "flags": []
+      }
+    }
+  ],
+  "status": "done"
+}

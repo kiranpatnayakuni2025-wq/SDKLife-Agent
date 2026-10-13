@@ -1,0 +1,765 @@
+{
+  "id": "20261013-155910",
+  "created": "2026-10-13T15:59:10",
+  "demo": false,
+  "label": "13 Oct 15:59 - Rajasthan",
+  "params": {
+    "states": "Rajasthan",
+    "cities": "Udaipur, Jaipur, Jodhpur, Kota, Ajmer, Pilani",
+    "types": [
+      "IIMs, IITs, NITs and other central institutes",
+      "Central and state universities",
+      "Private universities",
+      "B-schools / management institutes",
+      "Engineering and medical colleges"
+    ],
+    "min_hostel": 500,
+    "max_colleges": 5,
+    "residential_only": false,
+    "signals_of_interest": [
+      "Tenders / RFQs for hostel or outpass management",
+      "Biometric or facial-recognition access procurement",
+      "Hostel digitization / hostel management software",
+      "Smart-campus programmes",
+      "Campus security modernization",
+      "Student ERP modernization",
+      "Manual / register-based student movement",
+      "Campus expansion"
+    ]
+  },
+  "institutions": [
+    {
+      "name": "JNU Jaipur",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "type": "Private University",
+      "website": "jnujaipur.ac.in",
+      "research": {
+        "institution": "JNU Jaipur",
+        "hostel_students": 2500,
+        "hostel_students_basis": "JNU Jaipur website states it provides residential experience to over 2500+ students (source 1)",
+        "campus_summary": "JNU Jaipur is a private university in Jaipur with separate boys, girls and international hostels housing roughly 2500 students; the hostel leave process is described as a paper‑based register.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The university hosts over 2500 hostel students across multiple hostels.",
+            "date": "unknown",
+            "source_index": 1,
+            "source_type": "official",
+            "source_url": "https://www.jnujaipur.ac.in/campuslife/accomodations",
+            "source_title": "Campuslife Accomodations | JNU Jaipur"
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel leave and vacating procedures require a physical Leave Register and signed application, indicating a manual/paper system.",
+            "date": "unknown",
+            "source_index": 7,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/980985405/Notice-Leave",
+            "source_title": "Hostel Leave and Vacating Procedures | PDF - Scribd"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice for outpass or biometric access was found.",
+        "problem_fit": 2,
+        "problem_fit_reason": "Evidence shows the hostel uses a paper leave register, suggesting a clear need to digitize student movement.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "No information about existing ERP, digital gate‑pass, or biometric systems was found.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "JNU Jaipur has a sizable hostel population and currently relies on manual leave registers, indicating a potential need for a digital outpass solution.",
+        "potential_fit": "The QR‑code based gate‑pass and mobile leave request features of SDKLife’s Outpass module would replace the paper register and streamline guard verification.",
+        "outreach_angle": "Highlight how the Outpass app can eliminate the existing paper leave register and provide real‑time entry/exit tracking for the 2500+ hostel residents.",
+        "gaps": "No public tender or procurement data; no details on existing ERP or digital campus initiatives; no confirmed budget or timeline for modernization."
+      },
+      "verified_urls": [
+        "bids.professionalutilities.com/tenders/10009193",
+        "careers360.com/university/jaipur-national-university-jaipur/facilities",
+        "gem.gov.in/cppp/2",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "hostel360.in/blog/hostel-leave-application-format",
+        "jnujaipur-ac.in/accomodations.aspx",
+        "jnujaipur.ac.in/campuslife/accomodations",
+        "kollegeapply.com/college/jaipur-national-university-jaipur-hostel",
+        "notopedia-uploads.s3.us-east-2.amazonaws.com/college_brochure/Jaipur+National+University,+Rajasthan/Jaipur+National+University,+Rajasthan+-+Infrastructure+Details.pdf",
+        "rajteachers.net/leaves",
+        "scribd.com/document/310999211/Hostel-Manual-pdf",
+        "scribd.com/document/980985405/Notice-Leave",
+        "tenderdekho.com/tender-detail/td-3jmAYSdVBS",
+        "tenderkart.in/tender/fdd74171-8120-44c4-882f-678b30feb708",
+        "tendersahayakai.com/gem-tenders/jaipur"
+      ],
+      "score": {
+        "raw": 35.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 21.0,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice for outpass or biometric access was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 20.0,
+            "max": 20,
+            "note": "Evidence shows the hostel uses a paper leave register, suggesting a clear need to digitize student movement."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 15.0,
+            "max": 15,
+            "note": "About 2,500 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "No information about existing ERP, digital gate‑pass, or biometric systems was found."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The university hosts over 2500 hostel students across multiple hostels.",
+            "date": "unknown",
+            "source_index": 1,
+            "source_type": "official",
+            "source_url": "https://www.jnujaipur.ac.in/campuslife/accomodations",
+            "source_title": "Campuslife Accomodations | JNU Jaipur",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel leave and vacating procedures require a physical Leave Register and signed application, indicating a manual/paper system.",
+            "date": "unknown",
+            "source_index": 7,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/980985405/Notice-Leave",
+            "source_title": "Hostel Leave and Vacating Procedures | PDF - Scribd",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": []
+      }
+    },
+    {
+      "name": "BITS Pilani",
+      "city": "Pilani",
+      "state": "Rajasthan",
+      "type": "Institute of Technology (Deemed University)",
+      "website": "bits-pilani.ac.in",
+      "research": {
+        "institution": "BITS Pilani",
+        "hostel_students": 4500,
+        "hostel_students_basis": "Result 17 (shiksha.com) and 18/19 (official BITS Pilani site) state over 4500 students reside in 11 boys hostels and 1 girls hostel.",
+        "campus_summary": "BITS Pilani is a fully residential institute with 12 hostels accommodating around 4,500 students; it runs an ERP system for academic administration.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Large resident population with 12 hostels and >4,500 hostel students.",
+            "date": "2026-10-13",
+            "source_index": 17,
+            "source_type": "news",
+            "source_url": "https://www.shiksha.com/university/bits-pilani-birla-institute-of-technology-and-science-467/infrastructure",
+            "source_title": "BITS Pilani Infrastructure: Campus Facilities, Hostel, LibraryStudent Facilities - BITS PilaniFacilities - BITS PilaniBITS, Pilani Campus - Hostel, Facilities, Infrastructure ...Birla Institute of Technology and Science, Pilani | Students ...BITS Pilani Hostel 2026: Fees, Facilities, Rules & AllotmentBITS Pilani Hostel Fees 2026, Facilities, Rooms, Food, PhotosBook With the Hostel Experts - Chill Vibes and Cheap Hostels"
+          },
+          {
+            "tier": "indirect",
+            "description": "Manual leave procedures implied by hostel rules PDFs (scribd) that require written leave applications and registers.",
+            "date": "unknown",
+            "source_index": 21,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/902325398/Hostel-Rules",
+            "source_title": "Hostel Rules | PDF"
+          },
+          {
+            "tier": "indirect",
+            "description": "Campus expansion announced in 2025 AI+ innovation campus plan, indicating ongoing modernization efforts.",
+            "date": "2025-07-14",
+            "source_index": 11,
+            "source_type": "news",
+            "source_url": "https://www.cxodigitalpulse.com/bits-pilani-unveils-ambitious-expansion-plan-with-ai-campus-edtech-platform-and-rs-1219-cr-infrastructure-boost/",
+            "source_title": "BITS Pilani Unveils Ambitious Expansion Plan with AI+ Campus ..."
+          },
+          {
+            "tier": "indirect",
+            "description": "Existing ERP/SIS portals (erp.bits-pilani.ac.in, sis.erp.bits-pilani.ac.in) show digital backbone for student services.",
+            "date": "unknown",
+            "source_index": 9,
+            "source_type": "official",
+            "source_url": "https://erp.bits-pilani.ac.in/",
+            "source_title": "Home | ERP Home Page - BITS Pilani"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice for outpass or access control was found in the provided sources.",
+        "problem_fit": 1,
+        "problem_fit_reason": "The institute has a large hostel population, but the exact outpass process is not described; PDFs suggest paper-based leave applications.",
+        "digital_readiness": 2,
+        "digital_readiness_reason": "BITS Pilani operates an ERP and SIS system, indicating strong digital infrastructure for student management.",
+        "evidence_confidence": "Medium",
+        "why_shortlisted": "BITS Pilani hosts thousands of residential students and is undertaking campus expansion, yet its outpass process appears manual, presenting an opportunity to digitize movement tracking.",
+        "potential_fit": "Our rotating QR‑code outpass module can replace paper registers, integrate with existing ERP for approvals, and provide analytics for the large hostel community.",
+        "outreach_angle": "Reference BITS Pilani's recent AI+ campus expansion and ask about modernizing the hostel leave system to match their digital ambitions.",
+        "gaps": "No explicit tender or procurement notice for access‑control or outpass solutions; no detailed description of current outpass workflow on the official site."
+      },
+      "verified_urls": [
+        "appinventiv.com/blog/smart-campus-technology-for-higher-education",
+        "bing.com/aclick?ld=e8j0GHA4YJo1fVyyiRMxvIIjVUCUxUWcAfF3psS5T2wSHQno_s9V5uhakapowBdotmg4vlMQjAMOfbRWeGoigoHt9YTHlEWTubYJ6NVkTVtRO-nAarhGHTp3yba7ZXzsKBX5sScylTs05UzQTy7XHJ9L3lS_6f6JfRKrJ0B7U_nu-AstL0pVk3gdDB0N_kp9IfU3RGG8tEXmdIccUlKkHzmWVa1SY&u=aHR0cHMlM2ElMmYlMmZ3d3cuaG9zdGVsd29ybGQuY29tJTJmJTNmc291cmNlJTNkcHBjX21zYWRzX25vbmJyYW5kX2Rza19zZWFyY2hfZ2VuX2VuX3JvdyUyNm5ldHdvcmslM2RvJTI2Y2FtcGFpZ25faWQlM2Q1NzA4MTY3MjMlMjZhZGdyb3VwX2lkJTNkMTE3NTM3OTk5Nzg3MDQ2NyUyNmNyaXRlcmlhX2lkJTNka3dkLTczNDYxNzAzNjYzMjY1JTI2Y3JlYXRpdmVfaWQlM2QlMjZsb2NhdGlvbl9waHlzaWNhbF9pZCUzZDI2NTU2NSUyNmxvY2F0aW9uX2ludGVyZXN0X2lkJTNkMTQ5NDg3JTI2YWRwb3NpdGlvbiUzZCUyNnVuaXF1ZWNsaWNrSUQlM2QlMjZzdWJfa2V5d29yZCUzZGhvc3RlbCUyNnN1Yl9hZCUzZHAlMjZzdWJfcHVibGlzaGVyJTNkQURXJTI2Z2Nsc3JjJTNkM3AuZHMlMjYlMjZtc2Nsa2lkJTNkNTczZDNlYmNjMzFhMWQyYWY4NmQ1NDcyY2I4YmE3MTY&rlid=573d3ebcc31a1d2af86d5472cb8ba716",
+        "bits-pilani.ac.in/Goa/login",
+        "bits-pilani.ac.in/pilani/management/Facilities",
+        "bits-pilani.ac.in/pilani/student-facilities",
+        "bits-pilani.ac.in/wp-content/uploads/User-Manual-for-BITS-Help-Desk-Portal.pdf",
+        "bitsedu.com/erp/login",
+        "collegedekho.com/colleges/bits-pilani/campus",
+        "cxodigitalpulse.com/bits-pilani-unveils-ambitious-expansion-plan-with-ai-campus-edtech-platform-and-rs-1219-cr-infrastructure-boost",
+        "digittrix.com/blogs/biometric-attendance-system-a-smart-choice-for-universities",
+        "egatesnap.com",
+        "erp.bits-pilani.ac.in",
+        "globaltenders.com/rfp/access-control-system-tenders",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "hostel360.in/blog/hostel-leave-application-format",
+        "indiantenders.in",
+        "kenfra.in/how-smart-campus-technology-improves-learning-and-campus-security",
+        "scribd.com/document/1025566089/Hostel-Rules-1",
+        "scribd.com/document/902325398/Hostel-Rules",
+        "shiksha.com/university/bits-pilani-birla-institute-of-technology-and-science-467/infrastructure",
+        "sis.erp.bits-pilani.ac.in/psp/sisprd?cmd=login&languageCd=ENG",
+        "tenderdekho.com/blog/access-control-tenders-india-guide-2026",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tendersontime.com"
+      ],
+      "score": {
+        "raw": 50.0,
+        "multiplier": 0.85,
+        "confidence": "Medium",
+        "adjusted": 42.5,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice for outpass or access control was found in the provided sources."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 10.0,
+            "max": 20,
+            "note": "The institute has a large hostel population, but the exact outpass process is not described; PDFs suggest paper-based leave applications."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 15.0,
+            "max": 15,
+            "note": "Newest sourced signal is from Oct 2026 (within 6 months)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 15.0,
+            "max": 15,
+            "note": "About 4,500 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 10.0,
+            "max": 10,
+            "note": "BITS Pilani operates an ERP and SIS system, indicating strong digital infrastructure for student management."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Large resident population with 12 hostels and >4,500 hostel students.",
+            "date": "2026-10-13",
+            "source_index": 17,
+            "source_type": "news",
+            "source_url": "https://www.shiksha.com/university/bits-pilani-birla-institute-of-technology-and-science-467/infrastructure",
+            "source_title": "BITS Pilani Infrastructure: Campus Facilities, Hostel, LibraryStudent Facilities - BITS PilaniFacilities - BITS PilaniBITS, Pilani Campus - Hostel, Facilities, Infrastructure ...Birla Institute of Technology and Science, Pilani | Students ...BITS Pilani Hostel 2026: Fees, Facilities, Rules & AllotmentBITS Pilani Hostel Fees 2026, Facilities, Rooms, Food, PhotosBook With the Hostel Experts - Chill Vibes and Cheap Hostels",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Manual leave procedures implied by hostel rules PDFs (scribd) that require written leave applications and registers.",
+            "date": "unknown",
+            "source_index": 21,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/902325398/Hostel-Rules",
+            "source_title": "Hostel Rules | PDF",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Campus expansion announced in 2025 AI+ innovation campus plan, indicating ongoing modernization efforts.",
+            "date": "2025-07-14",
+            "source_index": 11,
+            "source_type": "news",
+            "source_url": "https://www.cxodigitalpulse.com/bits-pilani-unveils-ambitious-expansion-plan-with-ai-campus-edtech-platform-and-rs-1219-cr-infrastructure-boost/",
+            "source_title": "BITS Pilani Unveils Ambitious Expansion Plan with AI+ Campus ...",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Existing ERP/SIS portals (erp.bits-pilani.ac.in, sis.erp.bits-pilani.ac.in) show digital backbone for student services.",
+            "date": "unknown",
+            "source_index": 9,
+            "source_type": "official",
+            "source_url": "https://erp.bits-pilani.ac.in/",
+            "source_title": "Home | ERP Home Page - BITS Pilani",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": []
+      }
+    },
+    {
+      "name": "Shridhar University",
+      "city": "Pilani",
+      "state": "Rajasthan",
+      "type": "Private University",
+      "website": "shridharruniversity.ac.in",
+      "research": {
+        "institution": "Shridhar University",
+        "hostel_students": 4500,
+        "hostel_students_basis": "source_index 27 (from discovery)",
+        "campus_summary": "Shridhar University in Pilani has three hostel blocks (two for boys, one for girls) with over 200 rooms.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The university operates multiple hostel blocks with a sizable resident population, indicating potential manual outpass processes.",
+            "date": "unknown",
+            "source_index": 11,
+            "source_type": "news",
+            "source_url": "https://www.careers360.com/university/shridhar-university-pilani/facilities",
+            "source_title": "Shridhar University, Pilani Facilities Details: Hostel ...Shridhar University Hostel Fees: Rooms, Food & Rules, PilaniShridhar University Hostel, Fees & Accommodation DetailsShridhar University (SU), Pilani Infrastructure: Details ...Shridhar University - Pilani, Rajasthan - edumyra.comShridhar University Pilani Hostel Fees 2026, Facilities ...Shridhar University, Pilani, Jhunjhunu – Admissions, Fees ..."
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice for outpass or access control was found.",
+        "problem_fit": 1,
+        "problem_fit_reason": "The presence of several hostels suggests a need for movement tracking, but no evidence of existing digital outpass system.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "No information on ERP, digital campus apps, or biometric systems was located.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "Shridhar University has multiple hostels, which typically rely on manual gate registers, creating an opportunity for digitization.",
+        "potential_fit": "The rotating QR code outpass and guard photo verification features can replace paper registers and streamline hostel exit/entry.",
+        "outreach_angle": "Ask about their current hostel exit/entry process and any pain points with paper registers or manual checks.",
+        "gaps": "No data on existing digital systems, ERP usage, or any active procurement/tender for access control or outpass management."
+      },
+      "verified_urls": [
+        "appinventiv.com/blog/smart-campus-technology-for-higher-education",
+        "careers360.com/university/shridhar-university-pilani/facilities",
+        "collegebatch.com/895-shridhar-university-hostel-fees-facilities-pilani",
+        "collegefind.in/university/73-shridhar-university/hostels",
+        "digittrix.com/blogs/biometric-attendance-system-a-smart-choice-for-universities",
+        "edumyra.com/college/shridhar-university-pilani-rajasthan",
+        "ieeexplore.ieee.org/document/10716961",
+        "indiantenders.in",
+        "jrte.org/wp-content/uploads/2026/04/A-Review-of-Deep-Learning-Based-Automated-Biometric-Attendance-Monitoring-Systems-for-Educational-Institutions.pdf",
+        "scribd.com/document/959432372/Smart-Campus-Surveillance-and-Guidance-System-Using-Face-Recognition",
+        "shiksha.com/university/shridhar-university-su-pilani-36784/infrastructure",
+        "tenderdekho.com/blog/access-control-tenders-india-guide-2026",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tendersontime.com",
+        "tenderspedia.com"
+      ],
+      "score": {
+        "raw": 25.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 15.0,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice for outpass or access control was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 10.0,
+            "max": 20,
+            "note": "The presence of several hostels suggests a need for movement tracking, but no evidence of existing digital outpass system."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 15.0,
+            "max": 15,
+            "note": "About 4,500 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "No information on ERP, digital campus apps, or biometric systems was located."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The university operates multiple hostel blocks with a sizable resident population, indicating potential manual outpass processes.",
+            "date": "unknown",
+            "source_index": 11,
+            "source_type": "news",
+            "source_url": "https://www.careers360.com/university/shridhar-university-pilani/facilities",
+            "source_title": "Shridhar University, Pilani Facilities Details: Hostel ...Shridhar University Hostel Fees: Rooms, Food & Rules, PilaniShridhar University Hostel, Fees & Accommodation DetailsShridhar University (SU), Pilani Infrastructure: Details ...Shridhar University - Pilani, Rajasthan - edumyra.comShridhar University Pilani Hostel Fees 2026, Facilities ...Shridhar University, Pilani, Jhunjhunu – Admissions, Fees ...",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": []
+      }
+    },
+    {
+      "name": "Indian Institute of Technology Jodhpur",
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "type": "Institute of National Importance",
+      "website": "iitj.ac.in",
+      "research": {
+        "institution": "Indian Institute of Technology Jodhpur",
+        "hostel_students": null,
+        "hostel_students_basis": "",
+        "campus_summary": "IIT Jodhpur hosts 17 residential hostels (12 for boys, 5 for girls) and runs an internal ERP system for academic and administrative functions.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The institute has 17 hostels with a large resident student population.",
+            "date": "unknown",
+            "source_index": 17,
+            "source_type": "official",
+            "source_url": "https://iitj.ac.in/office-of-students/en/hostels",
+            "source_title": "Hostels | Office of Students | IIT Jodhpur"
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel leave procedures are managed via a physical Leave Register, indicating a manual/paper‑based movement tracking system.",
+            "date": "unknown",
+            "source_index": 22,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/980985405/Notice-Leave",
+            "source_title": "Hostel Leave and Vacating Procedures | PDF - Scribd"
+          },
+          {
+            "tier": "indirect",
+            "description": "IIT Jodhpur operates an internal ERP platform (erp.iitj.ac.in) covering academic, HR and finance modules.",
+            "date": "unknown",
+            "source_index": 6,
+            "source_type": "official",
+            "source_url": "https://erp.iitj.ac.in/",
+            "source_title": "Welcome to ERP | IIT Jodhpur"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice for outpass or access control systems was found.",
+        "problem_fit": 1,
+        "problem_fit_reason": "The presence of a manual leave register shows a paper‑based process, but exact scale of the problem is unclear.",
+        "digital_readiness": 1,
+        "digital_readiness_reason": "The institute has an ERP system, indicating some digital infrastructure, but no evidence of a dedicated campus‑wide mobility or access solution.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "IIT Jodhpur runs multiple hostels and still uses paper registers for student movement, suggesting a gap that a digital outpass could fill, while the campus already uses ERP tools that could integrate with our solution.",
+        "potential_fit": "The Outpass mobile app and QR‑gate integration can replace the manual leave register, and the analytics dashboard can feed into the existing ERP for audit and reporting.",
+        "outreach_angle": "Reference IIT Jodhpur's existing ERP and ask if they are exploring a digital upgrade for hostel exit/entry tracking to streamline security and reduce paperwork.",
+        "gaps": "No publicly available tender or procurement documents; no specific numbers on hostel resident population; no official statements on planned digitisation of hostel movement."
+      },
+      "verified_urls": [
+        "careers360.com/university/indian-institute-of-technology-jodhpur/facilities",
+        "devnetjobsindia.org/rfp_assignments.aspx",
+        "en.wikipedia.org/wiki/IIT_Jodhpur",
+        "erp.iitj.ac.in",
+        "erp.iitj.ac.in/SSOAdministration/auth.htm",
+        "erponline.iitj.ac.in/exapp/auth/apps.htm",
+        "findmycollege.com/colleges/indian-institute-of-technology-jodhpur-iit-jodhpur-64/hostel",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "ieeexplore.ieee.org/document/10415118",
+        "iitj.ac.in",
+        "iitj.ac.in/bachelor-of-technology/en/hostels-facilities",
+        "iitj.ac.in/dia/en/erp-automation",
+        "iitj.ac.in/office-of-security-transports/en/office-of-security-transports",
+        "iitj.ac.in/office-of-students/en/hostels",
+        "indiantenders.in",
+        "researchgate.net/publication/336138986_Toward_a_Smart_Campus_Using_IoT_Framework_for_Safety_and_Security_System_on_a_University_Campus",
+        "scribd.com/document/669408330/Smart-Campus-Security-System-Using-IoT-and-AI",
+        "scribd.com/document/900526449/Hostel-Rule",
+        "scribd.com/document/927199661/Rules-for-Girls-Hostel",
+        "scribd.com/document/980985405/Notice-Leave",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tendersontime.com",
+        "tenderspedia.com",
+        "terrier.co.in/smart-campus"
+      ],
+      "score": {
+        "raw": 15.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 9.0,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice for outpass or access control systems was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 10.0,
+            "max": 20,
+            "note": "The presence of a manual leave register shows a paper‑based process, but exact scale of the problem is unclear."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 0.0,
+            "max": 15,
+            "note": "Hostel population not found."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 5.0,
+            "max": 10,
+            "note": "The institute has an ERP system, indicating some digital infrastructure, but no evidence of a dedicated campus‑wide mobility or access solution."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The institute has 17 hostels with a large resident student population.",
+            "date": "unknown",
+            "source_index": 17,
+            "source_type": "official",
+            "source_url": "https://iitj.ac.in/office-of-students/en/hostels",
+            "source_title": "Hostels | Office of Students | IIT Jodhpur",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel leave procedures are managed via a physical Leave Register, indicating a manual/paper‑based movement tracking system.",
+            "date": "unknown",
+            "source_index": 22,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/980985405/Notice-Leave",
+            "source_title": "Hostel Leave and Vacating Procedures | PDF - Scribd",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "IIT Jodhpur operates an internal ERP platform (erp.iitj.ac.in) covering academic, HR and finance modules.",
+            "date": "unknown",
+            "source_index": 6,
+            "source_type": "official",
+            "source_url": "https://erp.iitj.ac.in/",
+            "source_title": "Welcome to ERP | IIT Jodhpur",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": [
+          "Hostel size unknown - check by hand."
+        ]
+      }
+    },
+    {
+      "name": "Central University of Rajasthan",
+      "city": "Ajmer",
+      "state": "Rajasthan",
+      "type": "Central University",
+      "website": "centraluniversity.in",
+      "research": {
+        "institution": "Central University of Rajasthan",
+        "hostel_students": 2850,
+        "hostel_students_basis": "Campus page lists four boys' and four girls' hostels with around 2,850 students capacity",
+        "campus_summary": "A central university in Ajmer with eight hostels housing roughly 2,850 residential students; security guards are present but no digital outpass system is mentioned.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Eight hostels with a total capacity of about 2,850 students",
+            "date": "unknown",
+            "source_index": 7,
+            "source_type": "official",
+            "source_url": "http://www.curaj.ac.in/campus",
+            "source_title": "Campus | Central University of Rajasthan"
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel rules document mentions leave applications and a leave register, implying a paper‑based process",
+            "date": "unknown",
+            "source_index": 11,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/902325398/Hostel-Rules",
+            "source_title": "Hostel Rules | PDF"
+          },
+          {
+            "tier": "indirect",
+            "description": "Recent tender listings on the university site show no procurement related to biometric, facial‑recognition or outpass management",
+            "date": "2026",
+            "source_index": 16,
+            "source_type": "official",
+            "source_url": "https://curaj.ac.in/tenders",
+            "source_title": "Tenders | Central University of Rajasthan"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ or procurement notice for outpass, biometric or campus access systems was found.",
+        "problem_fit": 0,
+        "problem_fit_reason": "No explicit evidence of manual gate registers or outpass handling; only generic hostel leave rules are available.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "No information on existing ERP, digital campus or smart‑campus platforms was located.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "The university has a sizable residential population but appears to rely on paper‑based leave procedures and has no visible procurement for digital gate management, indicating a potential gap that SDKLife could fill.",
+        "potential_fit": "Outpass module’s QR‑code gate control, mobile leave request, and admin analytics could replace the manual leave register and improve security.",
+        "outreach_angle": "Ask about their current hostel leave process and whether they are exploring digital solutions to streamline gate access and reduce paperwork.",
+        "gaps": "No concrete data on existing digital ERP or campus management systems; no direct tender or procurement evidence; lack of detailed information on gate security hardware."
+      },
+      "verified_urls": [
+        "bidplus.gem.gov.in/bidding/bid/getBidResultView/9246981",
+        "collegebatch.com/1522-central-university-of-rajasthan-hostel-fees-facilities-ajmer",
+        "curaj.ac.in/archive-tender",
+        "curaj.ac.in/campus",
+        "curaj.ac.in/hostels",
+        "curaj.ac.in/tenders",
+        "en.wikipedia.org/wiki/Central_University_of_Rajasthan",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "grokipedia.com/page/Central_University_of_Rajasthan",
+        "hostel360.in/blog/hostel-leave-application-format",
+        "indiantenders.in",
+        "rajteachers.net/leaves",
+        "scribd.com/document/900526449/Hostel-Rule",
+        "scribd.com/document/902325398/Hostel-Rules",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tenderkart.in/authority/central-university-of-rajasthan/active",
+        "tenderkart.in/tender/6f07cd46-70cb-4c26-9267-7dfebda7bd7a",
+        "tendersinfo.com/global-access-control-system-tenders.php",
+        "tendersontime.com",
+        "tenderspedia.com"
+      ],
+      "score": {
+        "raw": 30.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 18.0,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ or procurement notice for outpass, biometric or campus access systems was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 0.0,
+            "max": 20,
+            "note": "No explicit evidence of manual gate registers or outpass handling; only generic hostel leave rules are available."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 15.0,
+            "max": 15,
+            "note": "Newest sourced signal is from Jun 2026 (within 6 months)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 15.0,
+            "max": 15,
+            "note": "About 2,850 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "No information on existing ERP, digital campus or smart‑campus platforms was located."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Eight hostels with a total capacity of about 2,850 students",
+            "date": "unknown",
+            "source_index": 7,
+            "source_type": "official",
+            "source_url": "http://www.curaj.ac.in/campus",
+            "source_title": "Campus | Central University of Rajasthan",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel rules document mentions leave applications and a leave register, implying a paper‑based process",
+            "date": "unknown",
+            "source_index": 11,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/902325398/Hostel-Rules",
+            "source_title": "Hostel Rules | PDF",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Recent tender listings on the university site show no procurement related to biometric, facial‑recognition or outpass management",
+            "date": "2026",
+            "source_index": 16,
+            "source_type": "official",
+            "source_url": "https://curaj.ac.in/tenders",
+            "source_title": "Tenders | Central University of Rajasthan",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": []
+      }
+    }
+  ],
+  "status": "done"
+}

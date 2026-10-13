@@ -1,0 +1,410 @@
+{
+  "id": "20261009-113417",
+  "created": "2026-10-09T11:34:17",
+  "demo": false,
+  "label": "09 Oct 11:34 - Rajasthan",
+  "params": {
+    "states": "Rajasthan",
+    "cities": "Udaipur",
+    "types": [
+      "Central and state universities",
+      "Private universities",
+      "B-schools / management institutes",
+      "Engineering and medical colleges"
+    ],
+    "min_hostel": 500,
+    "max_colleges": 5,
+    "residential_only": true,
+    "signals_of_interest": [
+      "Biometric or facial-recognition access procurement",
+      "Tenders / RFQs for hostel or outpass management",
+      "Smart-campus programmes",
+      "Hostel digitization / hostel management software",
+      "Campus security modernization",
+      "Student ERP modernization",
+      "Manual / register-based student movement",
+      "Campus expansion"
+    ]
+  },
+  "institutions": [
+    {
+      "name": "Indian Institute of Management Udaipur",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "type": "B-school / management institute",
+      "website": "https://iimu.ac.in",
+      "research": {
+        "institution": "Indian Institute of Management Udaipur",
+        "hostel_students": null,
+        "hostel_students_basis": "",
+        "campus_summary": "IIM Udaipur is a 300‑acre B‑school with multiple hostels for its postgraduate cohort.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Hostel leave procedures require students to fill a Leave Application Form and sign a physical Leave Register, indicating a paper‑based movement process.",
+            "date": "unknown",
+            "source_index": 22,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/980985405/Notice-Leave",
+            "source_title": "Hostel Leave and Vacating Procedures | PDF - Scribd"
+          },
+          {
+            "tier": "indirect",
+            "description": "The institute has three hostel buildings with capacity for hundreds of students, showing a sizable resident population.",
+            "date": "unknown",
+            "source_index": 16,
+            "source_type": "news",
+            "source_url": "https://www.kollegeapply.com/college/iim-udaipur-indian-institute-of-management-udaipur-hostel",
+            "source_title": "IIM Udaipur Hostel 2026: Rooms and Fee Structure"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice for outpass, biometric or access control systems was found.",
+        "problem_fit": 1,
+        "problem_fit_reason": "Evidence of manual leave registers suggests a paper‑based process, but the exact scale of the problem is unclear.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "No public information about existing ERP, digital outpass, or biometric systems was located.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "IIM Udaipur runs multiple hostels and still uses paper leave registers, indicating a potential need to digitize student movement and gate access.",
+        "potential_fit": "The SDKLife Outpass module's QR‑code gate control, digital leave request workflow, and audit‑trail analytics could replace the manual register.",
+        "outreach_angle": "Highlight how the outpass solution can automate the existing paper leave register, improve security, and provide real‑time analytics for hostel administration.",
+        "gaps": "No official procurement notices, ERP details, or confirmed digital initiatives were found; hostel capacity numbers are not explicitly stated on the institute's site."
+      },
+      "verified_urls": [
+        "agastitech.com/smart-campus-automation",
+        "appinventiv.com/blog/smart-campus-technology-for-higher-education",
+        "careers360.com/university/indian-institute-of-management-udaipur/facilities",
+        "cims.mastersofterp.in",
+        "college4sure.com/college/indian-institute-of-management-udaipur-iimu-udaipur-64",
+        "collnod.com/colleges/indian-institute-of-managementudaipur-iimu/iim-udaipur-campus-and-infrastructure",
+        "dahuasecurity.com/in/solutions/enterprise-solutions/education/campus",
+        "erp.icampus.in",
+        "erp.zoho.in/app",
+        "getmyuni.com/college/indian-institute-of-management-iim-udaipur-facilities?page=facilities",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "iimtu.edu.in/page/student-services",
+        "impreserp.co.in",
+        "indiantenders.in",
+        "kollegeapply.com/college/iim-udaipur-indian-institute-of-management-udaipur-hostel",
+        "rajteachers.net/leaves",
+        "schoolautomationsystem.com/biometric-smart-attendance-management.html",
+        "scribd.com/document/900526449/Hostel-Rule",
+        "scribd.com/document/980985405/Notice-Leave",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tendersontime.com",
+        "tenderspedia.com",
+        "tendersworld.com",
+        "vmedulife.com/blog/hostel-management/student-hostel-management-system-streamlining-campus-accommodation-with-vmedulife"
+      ],
+      "score": {
+        "raw": 10.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 6.0,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice for outpass, biometric or access control systems was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 10.0,
+            "max": 20,
+            "note": "Evidence of manual leave registers suggests a paper‑based process, but the exact scale of the problem is unclear."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 0.0,
+            "max": 15,
+            "note": "Hostel population not found."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "No public information about existing ERP, digital outpass, or biometric systems was located."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Hostel leave procedures require students to fill a Leave Application Form and sign a physical Leave Register, indicating a paper‑based movement process.",
+            "date": "unknown",
+            "source_index": 22,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/980985405/Notice-Leave",
+            "source_title": "Hostel Leave and Vacating Procedures | PDF - Scribd",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "The institute has three hostel buildings with capacity for hundreds of students, showing a sizable resident population.",
+            "date": "unknown",
+            "source_index": 16,
+            "source_type": "news",
+            "source_url": "https://www.kollegeapply.com/college/iim-udaipur-indian-institute-of-management-udaipur-hostel",
+            "source_title": "IIM Udaipur Hostel 2026: Rooms and Fee Structure",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": [
+          "Hostel size unknown - check by hand."
+        ]
+      }
+    },
+    {
+      "name": "Janardan Rai Nagar Rajasthan Vidyapeeth University",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "type": "State university (deemed)",
+      "website": "http://www.sarvgyan.com",
+      "research": {
+        "institution": "Janardan Rai Nagar Rajasthan Vidyapeeth University",
+        "hostel_students": null,
+        "hostel_students_basis": "",
+        "campus_summary": "The university in Udaipur runs separate boys' and girls' hostels on campus, offering basic amenities such as 24‑hour security and Wi‑Fi.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The university provides on‑campus hostels (2 girls' hostels and 1 boys' hostel) with security and Wi‑Fi, indicating a resident student population that may still use manual gate registers.",
+            "date": "unknown",
+            "source_index": 19,
+            "source_type": "news",
+            "source_url": "https://collegedunia.com/university/25813-janardan-rai-nagar-rajasthan-vidyapeeth-university-jrnrvu-udaipur/hostel",
+            "source_title": "JRN University Hostel Fees 2026, Facilities, Rooms, Food, PhotosJanardan Rai Nagar Rajasthan Vidyapeeth University - [JRNRVU ...Janardan Rai Nagar Rajasthan Vidyapeeth Facilities 2026 ...Janardan Rai Nagar Rajasthan Vidyapeeth University - Shiksha"
+          },
+          {
+            "tier": "indirect",
+            "description": "Official university website lists the institution but does not publish any procurement or digitisation notices related to hostel or outpass management.",
+            "date": "unknown",
+            "source_index": 16,
+            "source_type": "official",
+            "source_url": "https://jrnrvu.edu.in/",
+            "source_title": "Janardan Rai Nagar Rajasthan Vidyapeeth (Deemed-to-be ..."
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice for a digital outpass or related system was found.",
+        "problem_fit": 0,
+        "problem_fit_reason": "No evidence that student movement is managed manually; hostel processes are not described.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "No public information about existing ERP, biometric, or digital gate‑pass solutions.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "The university has on‑campus hostels and basic security infrastructure, which could benefit from a modern outpass system, but no public signals of current need or procurement have been identified.",
+        "potential_fit": "SDKLife's QR‑code based outpass module could replace any paper register at hostel gates and integrate with future biometric or facial‑recognition upgrades.",
+        "outreach_angle": "Ask about their current gate‑pass process and whether they face challenges with manual registers or want to modernise hostel security.",
+        "gaps": "No concrete data on number of hostel residents, existing ERP or biometric systems, or any active procurement/tender related to outpass management."
+      },
+      "verified_urls": [
+        "bidplus.gem.gov.in/showbidDocument/9955176",
+        "collegedunia.com/university/25813-janardan-rai-nagar-rajasthan-vidyapeeth-university-jrnrvu-udaipur/hostel",
+        "contravault.com/live-tenders/rajasthan",
+        "edutech.global/smart-campus-technology-for-universities",
+        "erp.rvgef.org/web/login",
+        "getmyuni.com/college/janardan-rai-nagar-rajasthan-vidyapeeth-university-jrnrv-udaipur",
+        "ieeexplore.ieee.org/document/10716961",
+        "indiantenders.in",
+        "isms.mponline.gov.in/Portal/index.aspx",
+        "jrnrvu.edu.in",
+        "kollegeapply.com/college/janardan-rai-nagar-rajasthan-vidyapeeth-university-jrnrvu-udaipur-facilities",
+        "rajerp-oracle.e-connectsolutions.com",
+        "researchgate.net/publication/345360060_SMART_CAMPUS_USING_RFID",
+        "rjwave.org/jaafr/papers/JAAFR26A4532.pdf",
+        "sciencedirect.com/science/article/pii/S2210670720302183",
+        "targetadmission.com/universities/13380-janardan-rai-nagar-rajasthan-vidyapeeth-udaipur",
+        "tenderhut.in/tenders/rajasthan",
+        "tendersontime.com",
+        "tenderspedia.com",
+        "tendersplus.com/rajasthan-tenders/udaipur-tenders/active",
+        "uuerp.uudoon.in/Account/Login_UU",
+        "versionx.in/material-gate-pass-management-system",
+        "vmedulife.com/blog/erp-lms/erp-implementation-in-university-a-complete-2000-word-guide-tailored-to-vmedulife",
+        "vmedulife.com/blog/hostel-management/student-hostel-management-system-streamlining-campus-accommodation-with-vmedulife"
+      ],
+      "score": {
+        "raw": 0.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 0.0,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice for a digital outpass or related system was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 0.0,
+            "max": 20,
+            "note": "No evidence that student movement is managed manually; hostel processes are not described."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 0.0,
+            "max": 15,
+            "note": "Hostel population not found."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "No public information about existing ERP, biometric, or digital gate‑pass solutions."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The university provides on‑campus hostels (2 girls' hostels and 1 boys' hostel) with security and Wi‑Fi, indicating a resident student population that may still use manual gate registers.",
+            "date": "unknown",
+            "source_index": 19,
+            "source_type": "news",
+            "source_url": "https://collegedunia.com/university/25813-janardan-rai-nagar-rajasthan-vidyapeeth-university-jrnrvu-udaipur/hostel",
+            "source_title": "JRN University Hostel Fees 2026, Facilities, Rooms, Food, PhotosJanardan Rai Nagar Rajasthan Vidyapeeth University - [JRNRVU ...Janardan Rai Nagar Rajasthan Vidyapeeth Facilities 2026 ...Janardan Rai Nagar Rajasthan Vidyapeeth University - Shiksha",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Official university website lists the institution but does not publish any procurement or digitisation notices related to hostel or outpass management.",
+            "date": "unknown",
+            "source_index": 16,
+            "source_type": "official",
+            "source_url": "https://jrnrvu.edu.in/",
+            "source_title": "Janardan Rai Nagar Rajasthan Vidyapeeth (Deemed-to-be ...",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": [
+          "Hostel size unknown - check by hand."
+        ]
+      }
+    },
+    {
+      "name": "Sir Padampat Singhania University",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "type": "Private university",
+      "website": "",
+      "research": {
+        "institution": "Sir Padampat Singhania University",
+        "hostel_students": null,
+        "hostel_students_basis": "",
+        "campus_summary": "Sir Padampat Singhania University (SPSU) is a private university in Udaipur, Rajasthan offering engineering, management, computing and science programs.",
+        "signals": [],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, procurement notice or announced project for a digital outpass or related system was found.",
+        "problem_fit": 0,
+        "problem_fit_reason": "No evidence of manual or paper‑based student movement processes; hostel procedures are not documented in the available sources.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "No specific ERP, biometric, or campus‑digitisation tools are mentioned for SPSU in the searched material.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "SPSU is a sizable private university with residential facilities, making it a potential candidate for modernising hostel and gate‑pass processes even though no concrete signals were found.",
+        "potential_fit": "The Outpass module's QR‑code gate control, digital leave request workflow, and analytics could replace any existing paper registers and improve security.",
+        "outreach_angle": "Introduce SDKLife as a low‑cost, plug‑and‑play solution to digitise hostel exit/entry without requiring a large procurement process.",
+        "gaps": "No publicly available tender or procurement notices, no details on the number of hostel students, and no confirmed use of ERP or biometric systems at SPSU."
+      },
+      "verified_urls": [
+        "agastitech.com/smart-campus-automation",
+        "bidplus.gem.gov.in/showbidDocument/9955176",
+        "commercialdesignindia.com/insights/how-institutes-in-india-can-be-converted-into-a-smart-campus",
+        "digittrix.com/blogs/biometric-attendance-system-a-smart-choice-for-universities",
+        "gem.gov.in/cppp/602?order_by=org&type=asc",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "ieeexplore.ieee.org/document/10716961",
+        "rajteachers.net/leaves",
+        "schoolautomationsystem.com/biometric-smart-attendance-management.html",
+        "scribd.com/document/1025566089/Hostel-Rules-1",
+        "scribd.com/document/454112833/HostelManagement",
+        "scribd.com/document/900526449/Hostel-Rule",
+        "scribd.com/document/980985405/Notice-Leave",
+        "sonetmicrosystems.com",
+        "spsu.ac.in",
+        "spsu.ac.in/landing-spsu",
+        "techjockey.com/blog/best-college-erp-system-india",
+        "tender18.com/all-india-tenders/agency-tenders/department-of-education-tenders",
+        "vmedulife.com/blog/hostel-management/student-hostel-management-system-streamlining-campus-accommodation-with-vmedulife"
+      ],
+      "score": {
+        "raw": 0.0,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 0.0,
+        "priority": "Thin evidence",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, procurement notice or announced project for a digital outpass or related system was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 0.0,
+            "max": 20,
+            "note": "No evidence of manual or paper‑based student movement processes; hostel procedures are not documented in the available sources."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "No sourced signals."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "No dated, sourced signal."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 0.0,
+            "max": 15,
+            "note": "Hostel population not found."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "No specific ERP, biometric, or campus‑digitisation tools are mentioned for SPSU in the searched material."
+          }
+        ],
+        "signals": [],
+        "best_tier": null,
+        "flags": [
+          "Hostel size unknown - check by hand."
+        ]
+      }
+    }
+  ],
+  "status": "done"
+}

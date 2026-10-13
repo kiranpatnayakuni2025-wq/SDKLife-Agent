@@ -1,0 +1,715 @@
+{
+  "id": "20261009-003050",
+  "created": "2026-10-09T00:30:50",
+  "demo": false,
+  "label": "09 Oct 00:30 - Maharastra",
+  "params": {
+    "states": "Maharastra",
+    "cities": "",
+    "types": [
+      "IIMs, IITs, NITs and other central institutes",
+      "Central and state universities",
+      "Private universities",
+      "B-schools / management institutes",
+      "Engineering and medical colleges"
+    ],
+    "min_hostel": 500,
+    "max_colleges": 5,
+    "residential_only": true,
+    "signals_of_interest": [
+      "Biometric or facial-recognition access procurement"
+    ]
+  },
+  "institutions": [
+    {
+      "name": "Indian Institute of Technology Bombay",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "type": "IIT",
+      "website": "https://www.iitb.ac.in",
+      "research": {
+        "institution": "Indian Institute of Technology Bombay",
+        "hostel_students": null,
+        "hostel_students_basis": "PDF mentions 18 hostels (source 16)",
+        "campus_summary": "IIT Bombay is a fully residential institute with 18 hostels and recent security concerns raised by students and staff.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The institute has 18 hostels, indicating a large resident population.",
+            "date": "unknown",
+            "source_index": 16,
+            "source_type": "news",
+            "source_url": "https://www.its.ac.id/international/wp-content/uploads/sites/66/2021/05/IIT-Bombay.pdf",
+            "source_title": "PDF Indian Institute of Technology Bombay (IIT Bombay), India"
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel rules PDFs describe manual leave registers and paper-based movement tracking.",
+            "date": "unknown",
+            "source_index": 17,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/902325398/Hostel-Rules",
+            "source_title": "Hostel Rules | PDF"
+          },
+          {
+            "tier": "strong_need",
+            "description": "Biometric attendance policy introduced for staff, showing a move toward biometric access solutions.",
+            "date": "2024-10-23",
+            "source_index": 11,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/798392386/Circular-of-Biometric-Attendance-241023-194248",
+            "source_title": "Circular of Biometric Attendance - 241023 - 194248 | PDF - Scribd"
+          },
+          {
+            "tier": "indirect",
+            "description": "News reports students demanding stronger campus security and highlighting gaps in current access control.",
+            "date": "2025-10-09",
+            "source_index": 13,
+            "source_type": "news",
+            "source_url": "https://www.hindustantimes.com/cities/mumbai-news/iitb-students-demand-stronger-security-on-campus-101761678021804.html",
+            "source_title": "IIT-B students demand stronger security on campus | Mumbai news"
+          },
+          {
+            "tier": "indirect",
+            "description": "Insight article discussing campus security challenges and need for digital reform.",
+            "date": "2025-10-14",
+            "source_index": 12,
+            "source_type": "news",
+            "source_url": "https://insightiitb.org/whats-next-for-campus-security/",
+            "source_title": "What’s next for Campus Security? - insightiitb.org"
+          },
+          {
+            "tier": "indirect",
+            "description": "ERP system referenced on IITB portal, indicating existing digital administration tools.",
+            "date": "unknown",
+            "source_index": 6,
+            "source_type": "news",
+            "source_url": "https://insightiitb.org/erp-rolled-out/",
+            "source_title": "ERP Rolled Out - Insight, IIT BICT Online - LoginLog-In | EduAx | Education ERP SystemAccess Your JourneyStudent Hostel Management System | vmedulife ERP for ..."
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice for a digital outpass or access control system was found.",
+        "problem_fit": 2,
+        "problem_fit_reason": "Hostel rules explicitly require paper leave registers, showing a manual movement process.",
+        "digital_readiness": 2,
+        "digital_readiness_reason": "The institute runs an ERP system and has started biometric attendance, indicating readiness for digital solutions.",
+        "evidence_confidence": "Medium",
+        "why_shortlisted": "IIT Bombay hosts a large residential community, still uses paper-based hostel leave, and has expressed security concerns while already adopting biometric and ERP tools, making it a promising candidate for a modern outpass solution.",
+        "potential_fit": "The QR‑code based Outpass module can replace paper registers, integrate with existing biometric systems for guard verification, and feed data into the campus ERP for audit and analytics.",
+        "outreach_angle": "Offer to pilot a digital outpass that links to IITB's biometric attendance and ERP, addressing the manual leave process and recent security concerns.",
+        "gaps": "No explicit procurement or budget information; exact number of hostel residents not disclosed; no confirmed timeline for a digitization project."
+      },
+      "verified_urls": [
+        "ep.iitb.ac.in",
+        "erp.biitm.ac.in",
+        "erp.icampus.in",
+        "gem.gov.in/cppp/2026?order_by=dwn&type=desc",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "hindustantimes.com/cities/mumbai-news/iitb-students-demand-stronger-security-on-campus-101761678021804.html",
+        "iitb.ac.in/resources/vendors-tenders",
+        "iitb.ac.in/tenders",
+        "iitbhu.ac.in/contents/institute/academics/fresher/doc/hostel_rules.pdf",
+        "indiantenders.in",
+        "insightiitb.org/erp-rolled-out",
+        "insightiitb.org/iitb-campus-security-autos-deliveries-student-2025",
+        "insightiitb.org/whats-next-for-campus-security",
+        "its.ac.id/international/wp-content/uploads/sites/66/2021/05/IIT-Bombay.pdf",
+        "nabfid.org/tenders",
+        "scribd.com/document/1075383936/Hostel-Form",
+        "scribd.com/document/420423997/Policy",
+        "scribd.com/document/798392386/Circular-of-Biometric-Attendance-241023-194248",
+        "scribd.com/document/900526449/Hostel-Rule",
+        "scribd.com/document/902325398/Hostel-Rules",
+        "tenderdekho.com/blog/access-control-tenders-india-guide-2026",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tendersontime.com",
+        "vmedulife.com/blog/hostel-management/student-hostel-management-system-streamlining-campus-accommodation-with-vmedulife"
+      ],
+      "score": {
+        "raw": 45.0,
+        "multiplier": 0.85,
+        "confidence": "Medium",
+        "adjusted": 38.2,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice for a digital outpass or access control system was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 20.0,
+            "max": 20,
+            "note": "Hostel rules explicitly require paper leave registers, showing a manual movement process."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 7.5,
+            "max": 15,
+            "note": "Strong-need signal found, no direct signal."
+          },
+          {
+            "dimension": "Recency",
+            "points": 7.5,
+            "max": 15,
+            "note": "Newest sourced signal is from Oct 2025 (6-18 months old)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 0.0,
+            "max": 15,
+            "note": "Hostel population not found."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 10.0,
+            "max": 10,
+            "note": "The institute runs an ERP system and has started biometric attendance, indicating readiness for digital solutions."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "The institute has 18 hostels, indicating a large resident population.",
+            "date": "unknown",
+            "source_index": 16,
+            "source_type": "news",
+            "source_url": "https://www.its.ac.id/international/wp-content/uploads/sites/66/2021/05/IIT-Bombay.pdf",
+            "source_title": "PDF Indian Institute of Technology Bombay (IIT Bombay), India",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Hostel rules PDFs describe manual leave registers and paper-based movement tracking.",
+            "date": "unknown",
+            "source_index": 17,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/902325398/Hostel-Rules",
+            "source_title": "Hostel Rules | PDF",
+            "verified": true
+          },
+          {
+            "tier": "strong_need",
+            "description": "Biometric attendance policy introduced for staff, showing a move toward biometric access solutions.",
+            "date": "2024-10-23",
+            "source_index": 11,
+            "source_type": "news",
+            "source_url": "https://www.scribd.com/document/798392386/Circular-of-Biometric-Attendance-241023-194248",
+            "source_title": "Circular of Biometric Attendance - 241023 - 194248 | PDF - Scribd",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "News reports students demanding stronger campus security and highlighting gaps in current access control.",
+            "date": "2025-10-09",
+            "source_index": 13,
+            "source_type": "news",
+            "source_url": "https://www.hindustantimes.com/cities/mumbai-news/iitb-students-demand-stronger-security-on-campus-101761678021804.html",
+            "source_title": "IIT-B students demand stronger security on campus | Mumbai news",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Insight article discussing campus security challenges and need for digital reform.",
+            "date": "2025-10-14",
+            "source_index": 12,
+            "source_type": "news",
+            "source_url": "https://insightiitb.org/whats-next-for-campus-security/",
+            "source_title": "What’s next for Campus Security? - insightiitb.org",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "ERP system referenced on IITB portal, indicating existing digital administration tools.",
+            "date": "unknown",
+            "source_index": 6,
+            "source_type": "news",
+            "source_url": "https://insightiitb.org/erp-rolled-out/",
+            "source_title": "ERP Rolled Out - Insight, IIT BICT Online - LoginLog-In | EduAx | Education ERP SystemAccess Your JourneyStudent Hostel Management System | vmedulife ERP for ...",
+            "verified": true
+          }
+        ],
+        "best_tier": "strong_need",
+        "flags": [
+          "Hostel size unknown - check by hand."
+        ]
+      }
+    },
+    {
+      "name": "Indian Institute of Management Mumbai",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "type": "IIM",
+      "website": "https://www.iim-mumbai.ac.in",
+      "research": {
+        "institution": "Indian Institute of Management Mumbai",
+        "hostel_students": 800,
+        "hostel_students_basis": "Source 16 states the three hostel blocks accommodate 800 students.",
+        "campus_summary": "IIM Mumbai has three major hostel blocks and is undergoing a multi‑year infrastructure upgrade that includes new hostels and facilities.",
+        "signals": [
+          {
+            "tier": "direct",
+            "description": "Request for Qualification (RfQ) issued on behalf of IIM Mumbai for shortlisting vendors (details of the project not disclosed).",
+            "date": "unknown",
+            "source_index": 1,
+            "source_type": "news",
+            "source_url": "https://www.wapcos.co.in/media/docs/Tenders/Tender_Document_-_21010400.pdf",
+            "source_title": "Request for Qualification (RfQ) for Shortlisting of the ..."
+          },
+          {
+            "tier": "indirect",
+            "description": "IIM Mumbai hosts approximately 800 residential students across three hostel blocks.",
+            "date": "2025-12-28",
+            "source_index": 16,
+            "source_type": "news",
+            "source_url": "https://www.mbauniverse.com/college/mumbaimba/indian-institute-of-management-iim-mumbai/infrastructure",
+            "source_title": "IIM Mumbai Infrastructure: Campus, Hostels, Library, Facilities"
+          },
+          {
+            "tier": "indirect",
+            "description": "Recent news of a three‑and‑a‑half‑year campus makeover that will add new structures and upgrade hostels.",
+            "date": "2026-10-06",
+            "source_index": 17,
+            "source_type": "news",
+            "source_url": "https://www.hindustantimes.com/cities/mumbai-news/status-change-prompts-iim-mumbai-to-get-makeover-101791136446847.html",
+            "source_title": "Status change prompts IIM-Mumbai to get makeover"
+          },
+          {
+            "tier": "indirect",
+            "description": "Official IIM Mumbai page describing hostel facilities for residential programmes.",
+            "date": "unknown",
+            "source_index": 18,
+            "source_type": "official",
+            "source_url": "https://iimmumbai.ac.in/infrastructure",
+            "source_title": "IIM Mumbai - Infrastructure"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ or RFP specifically for biometric/facial‑recognition access or digital outpass systems was found.",
+        "problem_fit": 1,
+        "problem_fit_reason": "Large hostel population (≈800) suggests a need for managing student movement, but no explicit description of manual/paper processes was located.",
+        "digital_readiness": 0,
+        "digital_readiness_reason": "No evidence of existing ERP, digital outpass, or biometric systems was identified in the sources.",
+        "evidence_confidence": "Low",
+        "why_shortlisted": "IIM Mumbai runs sizable hostels and is investing in campus upgrades, indicating potential openness to modernising student movement tracking. Although no concrete procurement is visible yet, the scale and ongoing infrastructure work make it a plausible target for a digital outpass solution.",
+        "potential_fit": "SDKLife's QR‑code based gate‑pass with facial‑recognition verification can replace any paper registers and integrate with future campus security upgrades.",
+        "outreach_angle": "Reference the current campus makeover and ask if they are evaluating digital gate‑pass or biometric solutions as part of the upgrade.",
+        "gaps": "No specific procurement notice for access control or outpass systems; no details on existing digital attendance or ERP platforms."
+      },
+      "verified_urls": [
+        "agastitech.com/smart-campus-automation",
+        "appinventiv.com/blog/smart-campus-technology-for-higher-education",
+        "erp.aissms.org/adminlogin_.aspx",
+        "erp.icampus.in",
+        "google.com",
+        "hindustantimes.com/cities/mumbai-news/status-change-prompts-iim-mumbai-to-get-makeover-101791136446847.html",
+        "iimmumbai.ac.in/facilities",
+        "iimmumbai.ac.in/infrastructure",
+        "iimmumbai.ac.in/tenders/archives",
+        "iimmumbai.ac.in/tenders/archives?page=2",
+        "indiantenders.in",
+        "kenfra.in/how-smart-campus-technology-improves-learning-and-campus-security",
+        "mbauniverse.com/college/mumbaimba/indian-institute-of-management-iim-mumbai/infrastructure",
+        "scribd.com/document/454112833/HostelManagement",
+        "shiksha.com/college/indian-institute-of-management-mumbai-20735/infrastructure",
+        "smartclasssync.com/blog/digital-attendance-systems-in-india-biometric-rfid-and-app-compared",
+        "tenderdekho.com/blog/access-control-tenders-india-guide-2026",
+        "tenderdekho.com/tender-detail/td-2ACZVmmU5M",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tendershark.com/details/maharashtra-tender/indian-institute-of-management/c554ba87-ba3b-4b50-86b2-d9600a229f59",
+        "tendersontime.com",
+        "terrier.co.in/smart-campus",
+        "vmedulife.com/blog/hostel-management/student-hostel-management-system-streamlining-campus-accommodation-with-vmedulife",
+        "wapcos.co.in/media/docs/Tenders/Tender_Document_-_21010400.pdf"
+      ],
+      "score": {
+        "raw": 47.5,
+        "multiplier": 0.6,
+        "confidence": "Low",
+        "adjusted": 28.5,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ or RFP specifically for biometric/facial‑recognition access or digital outpass systems was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 10.0,
+            "max": 20,
+            "note": "Large hostel population (≈800) suggests a need for managing student movement, but no explicit description of manual/paper processes was located."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 15.0,
+            "max": 15,
+            "note": "Direct signal found."
+          },
+          {
+            "dimension": "Recency",
+            "points": 15.0,
+            "max": 15,
+            "note": "Newest sourced signal is from Oct 2026 (within 6 months)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 7.5,
+            "max": 15,
+            "note": "About 800 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 0.0,
+            "max": 10,
+            "note": "No evidence of existing ERP, digital outpass, or biometric systems was identified in the sources."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "direct",
+            "description": "Request for Qualification (RfQ) issued on behalf of IIM Mumbai for shortlisting vendors (details of the project not disclosed).",
+            "date": "unknown",
+            "source_index": 1,
+            "source_type": "news",
+            "source_url": "https://www.wapcos.co.in/media/docs/Tenders/Tender_Document_-_21010400.pdf",
+            "source_title": "Request for Qualification (RfQ) for Shortlisting of the ...",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "IIM Mumbai hosts approximately 800 residential students across three hostel blocks.",
+            "date": "2025-12-28",
+            "source_index": 16,
+            "source_type": "news",
+            "source_url": "https://www.mbauniverse.com/college/mumbaimba/indian-institute-of-management-iim-mumbai/infrastructure",
+            "source_title": "IIM Mumbai Infrastructure: Campus, Hostels, Library, Facilities",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Recent news of a three‑and‑a‑half‑year campus makeover that will add new structures and upgrade hostels.",
+            "date": "2026-10-06",
+            "source_index": 17,
+            "source_type": "news",
+            "source_url": "https://www.hindustantimes.com/cities/mumbai-news/status-change-prompts-iim-mumbai-to-get-makeover-101791136446847.html",
+            "source_title": "Status change prompts IIM-Mumbai to get makeover",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Official IIM Mumbai page describing hostel facilities for residential programmes.",
+            "date": "unknown",
+            "source_index": 18,
+            "source_type": "official",
+            "source_url": "https://iimmumbai.ac.in/infrastructure",
+            "source_title": "IIM Mumbai - Infrastructure",
+            "verified": true
+          }
+        ],
+        "best_tier": "direct",
+        "flags": []
+      }
+    },
+    {
+      "name": "D. Y. Patil University",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "type": "Private University",
+      "website": "https://www.dypatil.edu",
+      "research": {
+        "institution": "D. Y. Patil University",
+        "hostel_students": 1065,
+        "hostel_students_basis": "Hostel capacity listed in source 11 (girls 590, boys 475)",
+        "campus_summary": "The university runs a comprehensive ERP system and hosts over a thousand residential students across separate boys and girls hostels.",
+        "signals": [
+          {
+            "tier": "strong_need",
+            "description": "University operates a campus-wide ERP portal for academic records, attendance and fee management.",
+            "date": "unknown",
+            "source_index": 1,
+            "source_type": "official",
+            "source_url": "https://dpu.edu.in/erp.aspx",
+            "source_title": "ERP Portal | Dr. D. Y. Patil Vidyapeeth, Pune"
+          },
+          {
+            "tier": "indirect",
+            "description": "Large residential population: 167 girls rooms (590 students) and 160 boys rooms (475 students).",
+            "date": "unknown",
+            "source_index": 11,
+            "source_type": "news",
+            "source_url": "https://dypu.co.in/Accommodation.html",
+            "source_title": "D.Y.Patil University | Accommodation@@"
+          },
+          {
+            "tier": "strong_need",
+            "description": "Biometric attendance system deployed at Dr. D Y Patil Medical College and Hospital (MH/011/P/2).",
+            "date": "2022-08-24",
+            "source_index": 6,
+            "source_type": "official",
+            "source_url": "https://dypmchos.nmcindia.ac.in/",
+            "source_title": "Dashboard | NMC India Attendance | MH/011/P/2: Dr. D Y Patil ..."
+          },
+          {
+            "tier": "strong_need",
+            "description": "RFID and biometric tracking installed in the central library for security and automation.",
+            "date": "unknown",
+            "source_index": 9,
+            "source_type": "official",
+            "source_url": "https://library.dpu.edu.in/rfid-biometric.aspx",
+            "source_title": "RFID / Biometric Facility | DPU Central Library Pune"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ or procurement notice for a digital outpass or access control system was found.",
+        "problem_fit": 0,
+        "problem_fit_reason": "No evidence of manual/paper-based outpass procedures; the campus already uses digital attendance and library systems.",
+        "digital_readiness": 2,
+        "digital_readiness_reason": "Active ERP portal and mobile app (DPUERP) indicate strong digital infrastructure.",
+        "evidence_confidence": "High",
+        "why_shortlisted": "The university has a sizable hostel community and already uses biometric and ERP solutions, suggesting openness to further digitisation of student movement.",
+        "potential_fit": "SDKLife Outpass module can integrate with the existing ERP for leave approvals and add QR‑code gate access to complement current biometric systems.",
+        "outreach_angle": "Reference the university's ongoing biometric initiatives and propose a seamless extension to automate outpass handling, reducing gate‑keeper workload.",
+        "gaps": "No public tender or explicit statement of need for an outpass system; details of current outpass workflow are unavailable."
+      },
+      "verified_urls": [
+        "agastitech.com/smart-campus-automation",
+        "apps.apple.com/in/app/dpuerp/id6771280607",
+        "bids.professionalutilities.com/tenders/9984630",
+        "collegedunia.com/college/6364-dr-dy-patil-college-of-ayurved-and-research-centre-pune/hostel",
+        "ddyptmh.ncismbas.ac.in",
+        "dpu.edu.in/erp.aspx",
+        "dypatiluniversitypune.edu.in/Accommodation.php",
+        "dypmchos.nmcindia.ac.in",
+        "dypu.co.in/Accommodation.html",
+        "erpv5.dpuerp.in",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "jisc.ac.uk/guides/building-the-future-intelligent-campus",
+        "kollegeapply.com/college/ajeenkya-dy-patil-university-pune-facilities",
+        "kollegeapply.com/college/ajeenkya-dy-patil-university-pune-hostel",
+        "library.dpu.edu.in/rfid-biometric.aspx",
+        "mgmt.dpuerp.in/Login.aspx",
+        "scribd.com/document/900526449/Hostel-Rule",
+        "scribd.com/document/902325398/Hostel-Rules",
+        "scribd.com/document/980985405/Notice-Leave",
+        "sdg.dpu.edu.in/Login.aspx",
+        "shiksha.com/university/d-y-patil-university-pune-113753/infrastructure",
+        "tender18.com/all-india-tenders/city-tenders/pune-tenders",
+        "tenderkart.in/tender/d222c445-3566-4865-b166-1be2f5a7c11c",
+        "tendershark.com/city/maharashtra/pune-tenders/active"
+      ],
+      "score": {
+        "raw": 25.0,
+        "multiplier": 1.0,
+        "confidence": "High",
+        "adjusted": 25.0,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ or procurement notice for a digital outpass or access control system was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 0.0,
+            "max": 20,
+            "note": "No evidence of manual/paper-based outpass procedures; the campus already uses digital attendance and library systems."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 7.5,
+            "max": 15,
+            "note": "Strong-need signal found, no direct signal."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "Newest sourced signal is from Aug 2022 (older than 18 months)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 7.5,
+            "max": 15,
+            "note": "About 1,065 hostel students."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 10.0,
+            "max": 10,
+            "note": "Active ERP portal and mobile app (DPUERP) indicate strong digital infrastructure."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "strong_need",
+            "description": "University operates a campus-wide ERP portal for academic records, attendance and fee management.",
+            "date": "unknown",
+            "source_index": 1,
+            "source_type": "official",
+            "source_url": "https://dpu.edu.in/erp.aspx",
+            "source_title": "ERP Portal | Dr. D. Y. Patil Vidyapeeth, Pune",
+            "verified": true
+          },
+          {
+            "tier": "indirect",
+            "description": "Large residential population: 167 girls rooms (590 students) and 160 boys rooms (475 students).",
+            "date": "unknown",
+            "source_index": 11,
+            "source_type": "news",
+            "source_url": "https://dypu.co.in/Accommodation.html",
+            "source_title": "D.Y.Patil University | Accommodation@@",
+            "verified": true
+          },
+          {
+            "tier": "strong_need",
+            "description": "Biometric attendance system deployed at Dr. D Y Patil Medical College and Hospital (MH/011/P/2).",
+            "date": "2022-08-24",
+            "source_index": 6,
+            "source_type": "official",
+            "source_url": "https://dypmchos.nmcindia.ac.in/",
+            "source_title": "Dashboard | NMC India Attendance | MH/011/P/2: Dr. D Y Patil ...",
+            "verified": true
+          },
+          {
+            "tier": "strong_need",
+            "description": "RFID and biometric tracking installed in the central library for security and automation.",
+            "date": "unknown",
+            "source_index": 9,
+            "source_type": "official",
+            "source_url": "https://library.dpu.edu.in/rfid-biometric.aspx",
+            "source_title": "RFID / Biometric Facility | DPU Central Library Pune",
+            "verified": true
+          }
+        ],
+        "best_tier": "strong_need",
+        "flags": []
+      }
+    },
+    {
+      "name": "NMIMS University",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "type": "Private University / B-school",
+      "website": "https://www.nmims.edu",
+      "research": {
+        "institution": "NMIMS University",
+        "hostel_students": null,
+        "hostel_students_basis": "",
+        "campus_summary": "NMIMS is a private university in Mumbai with multiple hostels and has installed biometric access control at its entrances in 2017.",
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Biometric access control system installed at campus entrances to restrict entry to faculty and students.",
+            "date": "2017-08-10",
+            "source_index": 17,
+            "source_type": "news",
+            "source_url": "https://indianexpress.com/article/cities/mumbai/mumbai-nmims-installs-biometric-system-to-keep-out-outsiders-4791403/",
+            "source_title": "Mumbai: NMIMS installs biometric system to keep out outsidersMumbai: NMIMS installs biometric system to keep out outsidersCONTENTSGEM/2026/B/8051258 - Tender Notice for PROCUREMENT ...NMIMS (Deemed-to-be) UNIVERSITYCONTENTSAbout AICTE Approval | Top University in India - NMIMS"
+          }
+        ],
+        "buying_intent": 0,
+        "buying_intent_reason": "No tender, RFQ, or procurement notice for a digital outpass or visitor management system was found.",
+        "problem_fit": 0,
+        "problem_fit_reason": "No evidence of manual or paper‑based gate‑pass processes; existing biometric system suggests some digitization.",
+        "digital_readiness": 1,
+        "digital_readiness_reason": "Campus already uses biometric access control, indicating partial digital infrastructure.",
+        "evidence_confidence": "Medium",
+        "why_shortlisted": "NMIMS already values security technology (biometric gates) and runs hostels, making a modern outpass solution a logical next step to streamline visitor and student movement.",
+        "potential_fit": "The SDKLife Outpass module can replace any remaining paper registers with QR‑code scanning, integrate with existing biometric/face‑ID checks, and provide analytics for hostel admins.",
+        "outreach_angle": "Reference NMIMS's 2017 biometric rollout and propose upgrading the system to a full digital outpass platform that adds QR‑code verification and automated leave tracking.",
+        "gaps": "No publicly available data on the number of hostel students, current outpass procedures, or any active procurement notices."
+      },
+      "verified_urls": [
+        "bids.professionalutilities.com/tenders/9981595",
+        "bing.com/aclick?ld=e8FhayEaCB7rPx5_rJNFeqpTVUCUw4EXO68en3mhJOu-74kxbqEYgnvRBD5eDowdG71nEbRgb5JQWdUKAG8R7r8ulH4NI4gvhMEmhtSV524QKdN3Y-jWRX5vged_wMGvSPddmCZqHZblp4AcXdS7lvTWbid3ESj-yS-eaBnSIa5zQib_HKCtXAUiRE_v4GWlRcEEQsjlKrl_Oqc8yWjRD7ED-pt6w&u=aHR0cHMlM2ElMmYlMmZtYmEub25saW5lLm5taW1zLmVkdSUyZiUzZnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9hZHR5cGUlM2RTZWFyY2glMjZ1dG1fY2FtcGFpZ24lM2ROTUlNUy1PbmxpbmUtQmluZy1TZWFyY2gtUHVyZS1CcmFuZC1ST0ktRVAtSmFuLTI1JTI2dXRtX2FkZ3JvdXAlM2ROTUlNUy1PbmxpbmUlMjZ1dG1fYWQlM2QlMjZ1dG1fZGV2aWNlJTNkYyUyNnV0bV9uZXR3b3JrJTNkbyUyNnV0bV9jb250ZW50JTNka3dkLTgwODgzMjA3MDI0NTc5JTNhbG9jLTkwJTI2dXRtX3Rlcm0lM2RubWltcyUyNTIwb25saW5lJTI2bG9jYXRpb24lM2RwMjY1NTY1X2kyMzE2NzQlMjZhZyUzZEJpbmdfU2VhcmNoJTI2dXRtX21hdGNodHlwZSUzZHAlMjZHTENJRCUzZCUyNnV0bV9jYW1wYWlnbmlkJTNkNjg4NzA5NDAzJTI2cGwlM2QlMjZtc2Nsa2lkJTNkMzhhZjRhNTcwYzVmMTRiMDhmZWUyMDkwZTUxNzA2OTM&rlid=38af4a570c5f14b08fee2090e5170693",
+        "bing.com/aclick?ld=e8gZ3asY1NeRH8v2CNzb-LvzVUCUxFqh6jGGGwCXwMzLioyFwC1yK8-4Cpc496e5n-A2-VaLIhEiY3CB_-jEjp4Mnt_Wzq2dsa0LM8yl12ZfuLuDEERTu69mvy5-K7nHUlMS-4WBl_wrU_0sWvUc9AQEGCg5tITDBXq3FP-DAxayzxsVoexGIymviX75mNi_Y_MDc49SGlv30UzfBtZOekVCs9C1Q&u=aHR0cHMlM2ElMmYlMmZtYmEub25saW5lLm5taW1zLmVkdSUyZiUzZnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9hZHR5cGUlM2RTZWFyY2glMjZ1dG1fY2FtcGFpZ24lM2ROTUlNUy1PbmxpbmUtQmluZy1TZWFyY2gtUHVyZS1CcmFuZC1ST0ktRVAtSmFuLTI1JTI2dXRtX2FkZ3JvdXAlM2ROTUlNUy1PbmxpbmUlMjZ1dG1fYWQlM2QlMjZ1dG1fZGV2aWNlJTNkYyUyNnV0bV9uZXR3b3JrJTNkbyUyNnV0bV9jb250ZW50JTNka3dkLTgwODgzMjA3MDk3OTczJTNhbG9jLTkwJTI2dXRtX3Rlcm0lM2RubWltcyUyNmxvY2F0aW9uJTNkcDI2NTU2NV9pMjMxNjc0JTI2YWclM2RCaW5nX1NlYXJjaCUyNnV0bV9tYXRjaHR5cGUlM2RwJTI2R0xDSUQlM2QlMjZ1dG1fY2FtcGFpZ25pZCUzZDY4ODcwOTQwMyUyNnBsJTNkJTI2bXNjbGtpZCUzZDMzNWE4MzYxMTM1ZDFjZDU4ZGVkZTlhNmZhNTRlMmJk&rlid=335a8361135d1cd58dede9a6fa54e2bd",
+        "bing.com/aclick?ld=e8pIDv_FgZnQjO2X2m8T4IIDVUCUwTX_8i2jXghGXCb0x73zoTYCmCkJ0C8No2JbBTmsMTPvjzYjR0H6BYy8TAQV3PJb9S9mliQxMABeic4UhSCUw48TWJ9rAzGQQI9eJ91mYT3WJtKKDLUA8YQ8kux57Wx4VxFtmhGmkDCIgz_4l1BR0RBRdm8nOrseZ4CGj9PRPz9gtJhY-kyFOdK1n-cyk7kec&u=aHR0cHMlM2ElMmYlMmZtYmEub25saW5lLm5taW1zLmVkdSUyZiUzZnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9hZHR5cGUlM2RTZWFyY2glMjZ1dG1fY2FtcGFpZ24lM2ROTUlNUy1PbmxpbmUtQmluZy1TZWFyY2gtUHVyZS1CcmFuZC1ST0ktRVAtSmFuLTI1JTI2dXRtX2FkZ3JvdXAlM2ROTUlNUy1PbmxpbmUlMjZ1dG1fYWQlM2QlMjZ1dG1fZGV2aWNlJTNkYyUyNnV0bV9uZXR3b3JrJTNkbyUyNnV0bV9jb250ZW50JTNka3dkLTgwODgzMjA3MDk3OTczJTNhbG9jLTkwJTI2dXRtX3Rlcm0lM2RubWltcyUyNmxvY2F0aW9uJTNkcDI2NTU2NV9pMjMxNjc0JTI2YWclM2RCaW5nX1NlYXJjaCUyNnV0bV9tYXRjaHR5cGUlM2RwJTI2R0xDSUQlM2QlMjZ1dG1fY2FtcGFpZ25pZCUzZDY4ODcwOTQwMyUyNnBsJTNkJTI2bXNjbGtpZCUzZGQxOTFjNzJkMWJhYTE4YzY2YjMzYWRlYWYyOTJhNWEy&rlid=d191c72d1baa18c66b33adeaf292a5a2",
+        "economics.nmims.edu/docs/Student-Resource-Book-2025-26.pdf",
+        "gem.gov.in/cppp/2026?order_by=dwn&type=desc",
+        "gmcnashik.in/documents/Rules+&+Regulations+revised..pdf",
+        "indianexpress.com/article/cities/mumbai/mumbai-nmims-installs-biometric-system-to-keep-out-outsiders-4791403",
+        "indiantenders.in",
+        "nabfid.org/tenders",
+        "nyoooz.com/news/mumbai/892657/mumbai-nmims-installs-biometric-system-to-keep-out-outsiders",
+        "scribd.com/document/1075383936/Hostel-Form",
+        "scribd.com/document/900526449/Hostel-Rule",
+        "scribd.com/document/902325398/Hostel-Rules",
+        "tenderdekho.com/tender-detail/td-0W5qkAvzZw",
+        "tenderdekho.com/tender-detail/td-2FW9yZc2p3",
+        "tenderdetail.com/Indian-tender/access-control-tenders",
+        "tenderdetail.com/Indian-tender/nmims-tenders",
+        "tenderkart.in/tender/7d72c192-6774-48cd-8cd7-9b09949118af",
+        "tendersontime.com"
+      ],
+      "score": {
+        "raw": 5.0,
+        "multiplier": 0.85,
+        "confidence": "Medium",
+        "adjusted": 4.2,
+        "priority": "Low",
+        "breakdown": [
+          {
+            "dimension": "Buying intent",
+            "points": 0.0,
+            "max": 25,
+            "note": "No tender, RFQ, or procurement notice for a digital outpass or visitor management system was found."
+          },
+          {
+            "dimension": "Problem fit",
+            "points": 0.0,
+            "max": 20,
+            "note": "No evidence of manual or paper‑based gate‑pass processes; existing biometric system suggests some digitization."
+          },
+          {
+            "dimension": "Signal strength",
+            "points": 0.0,
+            "max": 15,
+            "note": "Indirect signals only."
+          },
+          {
+            "dimension": "Recency",
+            "points": 0.0,
+            "max": 15,
+            "note": "Newest sourced signal is from Aug 2017 (older than 18 months)."
+          },
+          {
+            "dimension": "Campus scale",
+            "points": 0.0,
+            "max": 15,
+            "note": "Hostel population not found."
+          },
+          {
+            "dimension": "Digital readiness",
+            "points": 5.0,
+            "max": 10,
+            "note": "Campus already uses biometric access control, indicating partial digital infrastructure."
+          }
+        ],
+        "signals": [
+          {
+            "tier": "indirect",
+            "description": "Biometric access control system installed at campus entrances to restrict entry to faculty and students.",
+            "date": "2017-08-10",
+            "source_index": 17,
+            "source_type": "news",
+            "source_url": "https://indianexpress.com/article/cities/mumbai/mumbai-nmims-installs-biometric-system-to-keep-out-outsiders-4791403/",
+            "source_title": "Mumbai: NMIMS installs biometric system to keep out outsidersMumbai: NMIMS installs biometric system to keep out outsidersCONTENTSGEM/2026/B/8051258 - Tender Notice for PROCUREMENT ...NMIMS (Deemed-to-be) UNIVERSITYCONTENTSAbout AICTE Approval | Top University in India - NMIMS",
+            "verified": true
+          }
+        ],
+        "best_tier": "indirect",
+        "flags": [
+          "Hostel size unknown - check by hand."
+        ]
+      }
+    }
+  ],
+  "status": "done"
+}
